@@ -1,0 +1,924 @@
+Flag --insecure-port has been deprecated, This flag will be removed in a future version.
+I0424 13:14:12.184110       1 server.go:656] external host was not specified, using 192.168.32.2
+I0424 13:14:12.201365       1 server.go:153] Version: v1.18.2
+I0424 13:14:12.769044       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+I0424 13:14:12.769261       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+I0424 13:14:12.781689       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+I0424 13:14:12.781839       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+I0424 13:14:12.866119       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:12.953347       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.069779       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.069835       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.081588       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.081637       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.345020       1 master.go:270] Using reconciler: lease
+I0424 13:14:13.349994       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.350041       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.385927       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.385975       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.437573       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.437619       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.445258       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.445294       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.455802       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.455835       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.467527       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.467583       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.477522       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.482374       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.490271       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.490301       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.497727       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.498014       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.506751       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.506780       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.523342       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.523422       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.536753       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.536930       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.547995       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.548031       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.563965       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.564012       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.574562       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.574594       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.581721       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.581772       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.590260       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.590292       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.597923       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.597956       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.604477       1 rest.go:113] the default service ipfamily for this cluster is: IPv4
+I0424 13:14:13.670890       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.670985       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.760929       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.761088       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.768317       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.768440       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.776634       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.776813       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.786529       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.786594       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.795161       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.795295       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.810177       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.810211       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.821318       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.821530       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.835252       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.835476       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.847164       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.847531       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.855517       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.855561       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.874097       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.874137       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.893499       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.893533       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.901744       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.901922       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.911211       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.911489       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.920199       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.920581       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.927960       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.928038       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.935694       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.935740       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.944796       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.944834       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.953719       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.953755       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.963042       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.963074       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.974629       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.974808       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.984324       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.984426       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:13.992876       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:13.993055       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.000952       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.001058       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.032745       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.033032       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.043515       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.043986       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.072762       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.072806       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.083150       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.083227       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.097908       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.098109       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.105043       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.105089       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.115713       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.116008       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.128463       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.128915       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.135654       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.135751       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.143642       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.143712       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.155780       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.155846       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.182071       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.182432       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.210417       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.211277       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.219280       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.219420       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.228416       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.228448       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.237330       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.237414       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.247439       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.247506       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.257478       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.257511       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.266135       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.266165       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.273834       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.273907       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+W0424 13:14:14.447944       1 genericapiserver.go:409] Skipping API batch/v2alpha1 because it has no resources.
+W0424 13:14:14.465217       1 genericapiserver.go:409] Skipping API discovery.k8s.io/v1alpha1 because it has no resources.
+W0424 13:14:14.486070       1 genericapiserver.go:409] Skipping API node.k8s.io/v1alpha1 because it has no resources.
+W0424 13:14:14.519801       1 genericapiserver.go:409] Skipping API rbac.authorization.k8s.io/v1alpha1 because it has no resources.
+W0424 13:14:14.532248       1 genericapiserver.go:409] Skipping API scheduling.k8s.io/v1alpha1 because it has no resources.
+W0424 13:14:14.569433       1 genericapiserver.go:409] Skipping API storage.k8s.io/v1alpha1 because it has no resources.
+W0424 13:14:14.583728       1 genericapiserver.go:409] Skipping API apps/v1beta2 because it has no resources.
+W0424 13:14:14.583756       1 genericapiserver.go:409] Skipping API apps/v1beta1 because it has no resources.
+I0424 13:14:14.590984       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+I0424 13:14:14.590997       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+I0424 13:14:14.607463       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.607497       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:14.614731       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:14:14.614772       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:14:16.543544       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+I0424 13:14:16.543726       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+I0424 13:14:16.544528       1 secure_serving.go:178] Serving securely on [::]:6443
+I0424 13:14:16.544601       1 controller.go:81] Starting OpenAPI AggregationController
+I0424 13:14:16.544631       1 dynamic_serving_content.go:130] Starting serving-cert::/etc/kubernetes/pki/apiserver.crt::/etc/kubernetes/pki/apiserver.key
+I0424 13:14:16.544663       1 tlsconfig.go:240] Starting DynamicServingCertificateController
+I0424 13:14:16.548135       1 cluster_authentication_trust_controller.go:440] Starting cluster_authentication_trust_controller controller
+I0424 13:14:16.548159       1 shared_informer.go:223] Waiting for caches to sync for cluster_authentication_trust_controller
+I0424 13:14:16.549783       1 apiservice_controller.go:94] Starting APIServiceRegistrationController
+I0424 13:14:16.550373       1 cache.go:32] Waiting for caches to sync for APIServiceRegistrationController controller
+I0424 13:14:16.550526       1 available_controller.go:387] Starting AvailableConditionController
+I0424 13:14:16.550597       1 cache.go:32] Waiting for caches to sync for AvailableConditionController controller
+I0424 13:14:16.560285       1 autoregister_controller.go:141] Starting autoregister controller
+I0424 13:14:16.560393       1 cache.go:32] Waiting for caches to sync for autoregister controller
+I0424 13:14:16.560559       1 crd_finalizer.go:266] Starting CRDFinalizer
+I0424 13:14:16.564252       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+I0424 13:14:16.564297       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+I0424 13:14:16.589273       1 crdregistration_controller.go:111] Starting crd-autoregister controller
+I0424 13:14:16.589347       1 shared_informer.go:223] Waiting for caches to sync for crd-autoregister
+I0424 13:14:16.589387       1 controller.go:86] Starting OpenAPI controller
+I0424 13:14:16.589461       1 customresource_discovery_controller.go:209] Starting DiscoveryController
+I0424 13:14:16.589554       1 naming_controller.go:291] Starting NamingConditionController
+I0424 13:14:16.589594       1 establishing_controller.go:76] Starting EstablishingController
+I0424 13:14:16.589613       1 nonstructuralschema_controller.go:186] Starting NonStructuralSchemaConditionController
+I0424 13:14:16.589740       1 apiapproval_controller.go:186] Starting KubernetesAPIApprovalPolicyConformantConditionController
+E0424 13:14:16.774890       1 controller.go:152] Unable to remove old endpoints from kubernetes service: no master IPs were listed in storage, refusing to erase all endpoints for the kubernetes service
+I0424 13:14:16.808392       1 shared_informer.go:230] Caches are synced for crd-autoregister 
+I0424 13:14:16.848836       1 shared_informer.go:230] Caches are synced for cluster_authentication_trust_controller 
+I0424 13:14:16.852758       1 cache.go:39] Caches are synced for AvailableConditionController controller
+I0424 13:14:16.853710       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+I0424 13:14:16.861827       1 cache.go:39] Caches are synced for autoregister controller
+I0424 13:14:17.543615       1 controller.go:130] OpenAPI AggregationController: action for item : Nothing (removed from the queue).
+I0424 13:14:17.543700       1 controller.go:130] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000000: Nothing (removed from the queue).
+I0424 13:14:17.550797       1 storage_scheduling.go:143] all system priority classes are created successfully or already exist.
+I0424 13:14:17.969150       1 controller.go:606] quota admission added evaluator for: leases.coordination.k8s.io
+I0424 13:14:33.064421       1 trace.go:116] Trace[618241357]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:32.221235211 +0000 UTC m=+24.537878848) (total time: 843.147803ms):
+Trace[618241357]: [843.111911ms] [843.076391ms] About to write a response
+I0424 13:14:38.297065       1 controller.go:606] quota admission added evaluator for: endpoints
+I0424 13:14:38.669022       1 trace.go:116] Trace[1657163997]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 13:14:37.965477049 +0000 UTC m=+30.282120696) (total time: 703.514388ms):
+Trace[1657163997]: [703.495908ms] [701.852854ms] Transaction committed
+I0424 13:14:38.670559       1 trace.go:116] Trace[179095380]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:14:38.08092839 +0000 UTC m=+30.397572080) (total time: 588.486789ms):
+Trace[179095380]: [588.46019ms] [588.069784ms] Transaction committed
+I0424 13:14:38.670883       1 trace.go:116] Trace[2145970601]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:14:38.080532137 +0000 UTC m=+30.397175776) (total time: 590.32179ms):
+Trace[2145970601]: [590.271679ms] [589.929269ms] Object stored in database
+I0424 13:14:39.755596       1 trace.go:116] Trace[1808259380]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:14:39.152911454 +0000 UTC m=+31.469555111) (total time: 602.661195ms):
+Trace[1808259380]: [602.62284ms] [602.331129ms] Transaction committed
+I0424 13:14:39.755711       1 trace.go:116] Trace[1698725195]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:39.152818367 +0000 UTC m=+31.469462012) (total time: 602.875857ms):
+Trace[1698725195]: [602.801995ms] [602.740087ms] Object stored in database
+I0424 13:14:39.756024       1 trace.go:116] Trace[1183989865]: "Get" url:/apis/discovery.k8s.io/v1beta1/namespaces/default/endpointslices/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:14:39.153750363 +0000 UTC m=+31.470394001) (total time: 602.257427ms):
+Trace[1183989865]: [602.210079ms] [602.204523ms] About to write a response
+I0424 13:14:39.757336       1 trace.go:116] Trace[1363958529]: "Get" url:/api/v1/namespaces/kube-system/pods/kube-scheduler-master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:14:39.161571909 +0000 UTC m=+31.478215560) (total time: 595.739235ms):
+Trace[1363958529]: [595.68647ms] [595.679236ms] About to write a response
+I0424 13:14:39.757652       1 trace.go:116] Trace[1992143771]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:39.242841851 +0000 UTC m=+31.559485515) (total time: 514.795511ms):
+Trace[1992143771]: [514.770558ms] [514.728087ms] About to write a response
+I0424 13:14:40.357315       1 trace.go:116] Trace[1304449483]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:39.761895082 +0000 UTC m=+32.078538719) (total time: 595.335732ms):
+Trace[1304449483]: [595.217272ms] [595.206052ms] About to write a response
+I0424 13:14:40.372495       1 trace.go:116] Trace[68519982]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:14:39.759803205 +0000 UTC m=+32.076446893) (total time: 612.656665ms):
+Trace[68519982]: [612.635962ms] [612.16916ms] Transaction committed
+I0424 13:14:40.372803       1 trace.go:116] Trace[837418909]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:39.759617441 +0000 UTC m=+32.076261087) (total time: 613.151336ms):
+Trace[837418909]: [612.985603ms] [612.832632ms] Object stored in database
+I0424 13:14:40.417103       1 trace.go:116] Trace[1426357959]: "Get" url:/api/v1/namespaces/kube-system/pods/kube-apiserver-master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:14:39.766644966 +0000 UTC m=+32.083288609) (total time: 650.401966ms):
+Trace[1426357959]: [650.24076ms] [650.235446ms] About to write a response
+I0424 13:14:41.176622       1 trace.go:116] Trace[845741353]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:40.374926319 +0000 UTC m=+32.691569983) (total time: 801.638623ms):
+Trace[845741353]: [801.43639ms] [801.403673ms] About to write a response
+I0424 13:14:41.177590       1 trace.go:116] Trace[315000118]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:14:40.419238621 +0000 UTC m=+32.735882725) (total time: 758.328048ms):
+Trace[315000118]: [758.260019ms] [756.526436ms] Transaction committed
+I0424 13:14:41.178028       1 trace.go:116] Trace[34575940]: "Patch" url:/api/v1/namespaces/kube-system/pods/kube-apiserver-master/status,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:14:40.419054481 +0000 UTC m=+32.735698126) (total time: 758.950908ms):
+Trace[34575940]: [758.554541ms] [756.827068ms] Object stored in database
+I0424 13:14:41.433135       1 trace.go:116] Trace[809430933]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:40.41887823 +0000 UTC m=+32.735521882) (total time: 1.014195413s):
+Trace[809430933]: [1.014140501s] [1.014122465s] About to write a response
+I0424 13:14:41.433812       1 trace.go:116] Trace[153816593]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/job-controller,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/kube-controller-manager,client:192.168.32.2 (started: 2020-04-24 13:14:40.677491241 +0000 UTC m=+32.994134934) (total time: 756.283124ms):
+Trace[153816593]: [756.214155ms] [756.192568ms] About to write a response
+I0424 13:14:44.856561       1 trace.go:116] Trace[2091897259]: "Delete" url:/api/v1/namespaces/kube-system/secrets/bootstrap-token-8kp831,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:token-cleaner,client:192.168.32.2 (started: 2020-04-24 13:14:44.187003624 +0000 UTC m=+36.503647273) (total time: 669.517045ms):
+Trace[2091897259]: [669.476873ms] [669.406339ms] Object deleted from database
+I0424 13:14:44.857267       1 trace.go:116] Trace[1155909062]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:44.198435685 +0000 UTC m=+36.515079331) (total time: 658.802399ms):
+Trace[1155909062]: [658.761461ms] [658.74072ms] About to write a response
+I0424 13:14:45.658648       1 trace.go:116] Trace[909964432]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:14:44.853379435 +0000 UTC m=+37.170023088) (total time: 805.201996ms):
+Trace[909964432]: [317.027868ms] [316.845986ms] Transaction prepared
+Trace[909964432]: [804.976833ms] [487.948965ms] Transaction committed
+I0424 13:14:45.659193       1 trace.go:116] Trace[524892329]: "Patch" url:/api/v1/namespaces/kube-system/pods/calico-node-8kc9h/status,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:14:44.853237473 +0000 UTC m=+37.169881112) (total time: 805.919044ms):
+Trace[524892329]: [805.476538ms] [795.293923ms] Object stored in database
+I0424 13:14:45.660644       1 trace.go:116] Trace[1544211016]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:14:44.864734709 +0000 UTC m=+37.181378373) (total time: 795.877636ms):
+Trace[1544211016]: [795.807899ms] [795.430122ms] Transaction committed
+I0424 13:14:45.661138       1 trace.go:116] Trace[2000356146]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:44.864628701 +0000 UTC m=+37.181272338) (total time: 796.476209ms):
+Trace[2000356146]: [796.077422ms] [796.002213ms] Object stored in database
+I0424 13:14:45.662013       1 trace.go:116] Trace[1823705601]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:44.852241065 +0000 UTC m=+37.168884702) (total time: 809.735921ms):
+Trace[1823705601]: [809.667651ms] [809.653342ms] About to write a response
+I0424 13:14:46.334592       1 trace.go:116] Trace[1070380517]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/node-controller,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/kube-controller-manager,client:192.168.32.2 (started: 2020-04-24 13:14:45.206607378 +0000 UTC m=+37.523251021) (total time: 1.127924965s):
+Trace[1070380517]: [1.127844735s] [1.127836706s] About to write a response
+I0424 13:14:46.337924       1 trace.go:116] Trace[1266917031]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:14:45.663844412 +0000 UTC m=+37.980488059) (total time: 673.97973ms):
+Trace[1266917031]: [673.907974ms] [673.383715ms] Transaction committed
+I0424 13:14:46.339490       1 trace.go:116] Trace[1723717479]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:45.663730567 +0000 UTC m=+37.980374211) (total time: 675.714289ms):
+Trace[1723717479]: [674.57088ms] [674.48892ms] Object stored in database
+I0424 13:14:48.474143       1 trace.go:116] Trace[2013319855]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/horizontal-pod-autoscaler,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/kube-controller-manager,client:192.168.32.2 (started: 2020-04-24 13:14:47.729490542 +0000 UTC m=+40.046134190) (total time: 744.60797ms):
+Trace[2013319855]: [744.541514ms] [744.534651ms] About to write a response
+I0424 13:14:48.474606       1 trace.go:116] Trace[1808263685]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:14:47.773736202 +0000 UTC m=+40.090379856) (total time: 700.837689ms):
+Trace[1808263685]: [700.802856ms] [700.785961ms] About to write a response
+I0424 13:14:48.488527       1 trace.go:116] Trace[824440139]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:47.681527422 +0000 UTC m=+39.998171074) (total time: 806.945884ms):
+Trace[824440139]: [806.851759ms] [806.821852ms] About to write a response
+I0424 13:14:49.135545       1 trace.go:116] Trace[1754948387]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:14:48.496161749 +0000 UTC m=+40.812805406) (total time: 639.350725ms):
+Trace[1754948387]: [639.324764ms] [638.709157ms] Transaction committed
+I0424 13:14:49.136210       1 trace.go:116] Trace[230857214]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:48.495835778 +0000 UTC m=+40.812479434) (total time: 640.316862ms):
+Trace[230857214]: [640.172271ms] [639.900029ms] Object stored in database
+I0424 13:14:49.326629       1 trace.go:116] Trace[1693653595]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/horizontal-pod-autoscaler,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/kube-controller-manager,client:192.168.32.2 (started: 2020-04-24 13:14:48.50354059 +0000 UTC m=+40.820184245) (total time: 823.040296ms):
+Trace[1693653595]: [822.839351ms] [822.829223ms] About to write a response
+I0424 13:14:49.326753       1 trace.go:116] Trace[1541422562]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:48.503992628 +0000 UTC m=+40.820636282) (total time: 822.728129ms):
+Trace[1541422562]: [822.680765ms] [822.650534ms] About to write a response
+I0424 13:14:49.339972       1 trace.go:116] Trace[868912221]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 13:14:48.488005897 +0000 UTC m=+40.804649571) (total time: 851.943539ms):
+Trace[868912221]: [650.864337ms] [650.864337ms] initial value restored
+Trace[868912221]: [839.345888ms] [188.481551ms] Transaction prepared
+I0424 13:14:50.020837       1 trace.go:116] Trace[586477107]: "Get" url:/api/v1/namespaces/default/endpoints/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:14:49.340583299 +0000 UTC m=+41.657226949) (total time: 680.223831ms):
+Trace[586477107]: [680.148388ms] [680.13868ms] About to write a response
+I0424 13:14:50.021342       1 trace.go:116] Trace[1005108464]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/pvc-protection-controller,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/kube-controller-manager,client:192.168.32.2 (started: 2020-04-24 13:14:49.347410091 +0000 UTC m=+41.664053730) (total time: 673.891878ms):
+Trace[1005108464]: [673.784798ms] [673.777979ms] About to write a response
+I0424 13:14:51.739882       1 trace.go:116] Trace[1297285528]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:51.144735423 +0000 UTC m=+43.461379072) (total time: 595.119207ms):
+Trace[1297285528]: [595.078922ms] [595.065525ms] About to write a response
+I0424 13:14:52.487996       1 trace.go:116] Trace[623705928]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:14:51.755119559 +0000 UTC m=+44.071763252) (total time: 732.853166ms):
+Trace[623705928]: [732.836549ms] [731.724518ms] Transaction committed
+I0424 13:14:52.488074       1 trace.go:116] Trace[128414707]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:14:51.747652964 +0000 UTC m=+44.064296622) (total time: 740.405027ms):
+Trace[128414707]: [740.371157ms] [732.955832ms] Object stored in database
+I0424 13:14:53.081816       1 trace.go:116] Trace[40856873]: "Create" url:/api/v1/namespaces/default/events,user-agent:kube-proxy/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:14:52.503584688 +0000 UTC m=+44.820228333) (total time: 578.203069ms):
+Trace[40856873]: [578.159925ms] [554.691646ms] Object stored in database
+I0424 13:14:58.488072       1 trace.go:116] Trace[1030886860]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 13:14:57.77892978 +0000 UTC m=+50.095573439) (total time: 709.115473ms):
+Trace[1030886860]: [709.094407ms] [707.017781ms] Transaction committed
+I0424 13:15:03.263682       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:03.263829       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:03.295135       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:03.295168       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:03.317097       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:03.317129       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:03.948300       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:03.948438       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.066137       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.066223       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.089346       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.089540       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.114233       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.114349       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.290831       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.291092       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.317862       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.318102       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.340197       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.340235       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.369233       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.370546       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.402324       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.402347       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.430687       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.430773       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:04.478114       1 trace.go:116] Trace[1100122496]: "GuaranteedUpdate etcd3" type:*core.Event (started: 2020-04-24 13:15:03.977431678 +0000 UTC m=+56.294075335) (total time: 500.665369ms):
+Trace[1100122496]: [488.66518ms] [488.66518ms] initial value restored
+I0424 13:15:04.478390       1 trace.go:116] Trace[1727304435]: "Patch" url:/api/v1/namespaces/kube-system/events/coredns-66bff467f8-bfq5l.1608c3b9c4bfe3aa,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:03.977333215 +0000 UTC m=+56.293976868) (total time: 501.040867ms):
+Trace[1727304435]: [488.765592ms] [488.728061ms] About to apply patch
+I0424 13:15:04.669289       1 controller.go:606] quota admission added evaluator for: endpointslices.discovery.k8s.io
+I0424 13:15:04.740802       1 client.go:361] parsed scheme: "endpoint"
+I0424 13:15:04.740963       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+I0424 13:15:05.185124       1 trace.go:116] Trace[1379724909]: "List etcd3" key:/crd.projectcalico.org/globalnetworkpolicies,resourceVersion:,limit:10000,continue: (started: 2020-04-24 13:15:04.438374393 +0000 UTC m=+56.755018039) (total time: 746.723565ms):
+Trace[1379724909]: [746.723565ms] [746.723565ms] END
+I0424 13:15:05.185643       1 trace.go:116] Trace[2138013872]: "List etcd3" key:/crd.projectcalico.org/hostendpoints,resourceVersion:,limit:10000,continue: (started: 2020-04-24 13:15:04.424196143 +0000 UTC m=+56.740839844) (total time: 761.424431ms):
+Trace[2138013872]: [761.424431ms] [761.424431ms] END
+I0424 13:15:05.187010       1 trace.go:116] Trace[368333027]: "List etcd3" key:/crd.projectcalico.org/hostendpoints,resourceVersion:0,limit:500,continue: (started: 2020-04-24 13:15:04.410798105 +0000 UTC m=+56.727441745) (total time: 776.18512ms):
+Trace[368333027]: [776.18512ms] [776.18512ms] END
+I0424 13:15:05.187157       1 trace.go:116] Trace[327619182]: "List" url:/apis/crd.projectcalico.org/v1/hostendpoints,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/metadata-informers,client:192.168.32.2 (started: 2020-04-24 13:15:04.410759297 +0000 UTC m=+56.727402941) (total time: 776.37969ms):
+Trace[327619182]: [776.325081ms] [776.292033ms] Listing from storage done
+I0424 13:15:05.187487       1 trace.go:116] Trace[1359925833]: "List etcd3" key:/crd.projectcalico.org/networksets,resourceVersion:,limit:10000,continue: (started: 2020-04-24 13:15:04.396519679 +0000 UTC m=+56.713163327) (total time: 790.947398ms):
+Trace[1359925833]: [790.947398ms] [790.947398ms] END
+I0424 13:15:05.189901       1 trace.go:116] Trace[386580621]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:04.664664787 +0000 UTC m=+56.981308456) (total time: 525.206706ms):
+Trace[386580621]: [525.094352ms] [524.746625ms] Transaction committed
+I0424 13:15:05.190150       1 trace.go:116] Trace[1749585756]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:04.664575647 +0000 UTC m=+56.981219284) (total time: 525.551246ms):
+Trace[1749585756]: [525.498459ms] [525.434607ms] Object stored in database
+I0424 13:15:05.190660       1 trace.go:116] Trace[766224739]: "GuaranteedUpdate etcd3" type:*discovery.EndpointSlice (started: 2020-04-24 13:15:04.668702765 +0000 UTC m=+56.985346412) (total time: 521.941437ms):
+Trace[766224739]: [521.906946ms] [521.288187ms] Transaction committed
+I0424 13:15:05.190851       1 trace.go:116] Trace[1949051762]: "Update" url:/apis/discovery.k8s.io/v1beta1/namespaces/kube-system/endpointslices/kube-dns-2l55g,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:endpointslice-controller,client:192.168.32.2 (started: 2020-04-24 13:15:04.668636293 +0000 UTC m=+56.985279938) (total time: 522.195442ms):
+Trace[1949051762]: [522.087655ms] [522.048994ms] Object stored in database
+I0424 13:15:05.561755       1 trace.go:116] Trace[1302148242]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:04.470325095 +0000 UTC m=+56.786968732) (total time: 1.091390157s):
+Trace[1302148242]: [1.091337616s] [1.085610118s] About to write a response
+I0424 13:15:05.562863       1 trace.go:116] Trace[1957511665]: "Create" url:/api/v1/namespaces/default/events,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:node-controller,client:192.168.32.2 (started: 2020-04-24 13:15:04.988510753 +0000 UTC m=+57.305154391) (total time: 574.322931ms):
+Trace[1957511665]: [574.266573ms] [574.211908ms] Object stored in database
+I0424 13:15:05.567029       1 trace.go:116] Trace[1625824188]: "List etcd3" key:/crd.projectcalico.org/globalnetworkpolicies,resourceVersion:0,limit:500,continue: (started: 2020-04-24 13:15:04.723829361 +0000 UTC m=+57.040473005) (total time: 843.171416ms):
+Trace[1625824188]: [843.171416ms] [843.171416ms] END
+I0424 13:15:05.567332       1 trace.go:116] Trace[1372834493]: "List" url:/apis/crd.projectcalico.org/v1/globalnetworkpolicies,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/metadata-informers,client:192.168.32.2 (started: 2020-04-24 13:15:04.723720575 +0000 UTC m=+57.040364213) (total time: 843.584417ms):
+Trace[1372834493]: [843.519472ms] [843.437388ms] Listing from storage done
+I0424 13:15:05.568818       1 trace.go:116] Trace[1086895486]: "List etcd3" key:/crd.projectcalico.org/ipamconfigs,resourceVersion:0,limit:500,continue: (started: 2020-04-24 13:15:04.74848322 +0000 UTC m=+57.065126858) (total time: 820.313795ms):
+Trace[1086895486]: [820.313795ms] [820.313795ms] END
+I0424 13:15:05.569096       1 trace.go:116] Trace[214552956]: "List" url:/apis/crd.projectcalico.org/v1/ipamconfigs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/metadata-informers,client:192.168.32.2 (started: 2020-04-24 13:15:04.748447278 +0000 UTC m=+57.065090915) (total time: 820.61778ms):
+Trace[214552956]: [820.461447ms] [820.429903ms] Listing from storage done
+I0424 13:15:05.569538       1 trace.go:116] Trace[169150190]: "List etcd3" key:/crd.projectcalico.org/ipamconfigs,resourceVersion:,limit:10000,continue: (started: 2020-04-24 13:15:04.74759376 +0000 UTC m=+57.064237407) (total time: 821.926996ms):
+Trace[169150190]: [821.926996ms] [821.926996ms] END
+I0424 13:15:05.571014       1 trace.go:116] Trace[1230454303]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:04.748319942 +0000 UTC m=+57.064963596) (total time: 822.665525ms):
+Trace[1230454303]: [822.390604ms] [822.372044ms] About to write a response
+I0424 13:15:05.572886       1 trace.go:116] Trace[1875880189]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:04.985682458 +0000 UTC m=+57.302326127) (total time: 587.181825ms):
+Trace[1875880189]: [587.152459ms] [585.504703ms] Transaction committed
+I0424 13:15:05.573203       1 trace.go:116] Trace[470913014]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-dns,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:endpoint-controller,client:192.168.32.2 (started: 2020-04-24 13:15:04.985544806 +0000 UTC m=+57.302188447) (total time: 587.617206ms):
+Trace[470913014]: [587.448218ms] [587.348203ms] Object stored in database
+I0424 13:15:05.907727       1 trace.go:116] Trace[77754122]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:05.02939616 +0000 UTC m=+57.346039804) (total time: 878.308023ms):
+Trace[77754122]: [878.175392ms] [878.14918ms] About to write a response
+I0424 13:15:08.777421       1 trace.go:116] Trace[1559085563]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:07.945636038 +0000 UTC m=+60.262279678) (total time: 831.667116ms):
+Trace[1559085563]: [831.600383ms] [831.580301ms] About to write a response
+I0424 13:15:08.779425       1 trace.go:116] Trace[866989181]: "Get" url:/api/v1/namespaces/default/endpoints/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:15:07.858338125 +0000 UTC m=+60.174981762) (total time: 921.040867ms):
+Trace[866989181]: [920.91704ms] [920.905918ms] About to write a response
+I0424 13:15:08.779447       1 trace.go:116] Trace[727503368]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:08.151993522 +0000 UTC m=+60.468637241) (total time: 627.40971ms):
+Trace[727503368]: [627.270201ms] [627.21203ms] About to write a response
+I0424 13:15:12.303871       1 trace.go:116] Trace[1798546640]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:10.921480767 +0000 UTC m=+63.238124435) (total time: 1.382353781s):
+Trace[1798546640]: [1.382299427s] [1.38226944s] About to write a response
+I0424 13:15:12.303944       1 trace.go:116] Trace[1826736767]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:10.897497466 +0000 UTC m=+63.214141134) (total time: 1.406382371s):
+Trace[1826736767]: [1.406351821s] [1.406331254s] About to write a response
+I0424 13:15:12.304523       1 trace.go:116] Trace[1269111904]: "List etcd3" key:/jobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 13:15:11.221601971 +0000 UTC m=+63.538245667) (total time: 1.082891382s):
+Trace[1269111904]: [1.082891382s] [1.082891382s] END
+I0424 13:15:12.304656       1 trace.go:116] Trace[1049857901]: "List" url:/apis/batch/v1/jobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 13:15:11.221548819 +0000 UTC m=+63.538192537) (total time: 1.083064158s):
+Trace[1049857901]: [1.082984096s] [1.082943377s] Listing from storage done
+I0424 13:15:19.612038       1 trace.go:116] Trace[1146780807]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:17.17220584 +0000 UTC m=+69.488849494) (total time: 2.439800628s):
+Trace[1146780807]: [2.439747737s] [2.43972553s] About to write a response
+I0424 13:15:20.210808       1 trace.go:116] Trace[1787499454]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:17.560671966 +0000 UTC m=+69.877315605) (total time: 2.650112926s):
+Trace[1787499454]: [2.649975699s] [2.64994895s] About to write a response
+I0424 13:15:20.229985       1 trace.go:116] Trace[1527621696]: "Get" url:/api/v1/namespaces/kube-node-lease,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:15:17.169711736 +0000 UTC m=+69.486355374) (total time: 3.060246652s):
+Trace[1527621696]: [3.060200573s] [3.060196206s] About to write a response
+I0424 13:15:20.230985       1 trace.go:116] Trace[727692277]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:19.588126838 +0000 UTC m=+71.904770478) (total time: 642.835136ms):
+Trace[727692277]: [642.506419ms] [642.477939ms] About to write a response
+I0424 13:15:20.231755       1 trace.go:116] Trace[1240113818]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:15:17.788968603 +0000 UTC m=+70.105612249) (total time: 2.442739979s):
+Trace[1240113818]: [2.442708254s] [2.442701064s] About to write a response
+I0424 13:15:20.232726       1 trace.go:116] Trace[684943988]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:19.099921832 +0000 UTC m=+71.416565472) (total time: 1.132754381s):
+Trace[684943988]: [1.132727926s] [1.132707983s] About to write a response
+I0424 13:15:20.233980       1 trace.go:116] Trace[309495974]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:15:19.613488311 +0000 UTC m=+71.930131960) (total time: 620.462098ms):
+Trace[309495974]: [620.348277ms] [620.066197ms] Transaction committed
+I0424 13:15:20.234163       1 trace.go:116] Trace[1950293987]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:19.613343276 +0000 UTC m=+71.929986914) (total time: 620.796044ms):
+Trace[1950293987]: [620.729901ms] [620.617148ms] Object stored in database
+I0424 13:15:20.242893       1 trace.go:116] Trace[1789404931]: "GuaranteedUpdate etcd3" type:*core.Event (started: 2020-04-24 13:15:17.519779621 +0000 UTC m=+69.836423268) (total time: 2.723089985s):
+Trace[1789404931]: [2.710396672s] [2.710396672s] initial value restored
+I0424 13:15:20.242972       1 trace.go:116] Trace[2051096543]: "Patch" url:/api/v1/namespaces/kube-system/events/coredns-66bff467f8-bfq5l.1608c3b9c4bfe3aa,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:17.519697169 +0000 UTC m=+69.836340813) (total time: 2.72325405s):
+Trace[2051096543]: [2.710481154s] [2.710457093s] About to apply patch
+I0424 13:15:20.794258       1 trace.go:116] Trace[1378559829]: "GuaranteedUpdate etcd3" type:*core.Event (started: 2020-04-24 13:15:20.244214487 +0000 UTC m=+72.560858135) (total time: 550.021673ms):
+Trace[1378559829]: [235.714325ms] [235.714325ms] initial value restored
+Trace[1378559829]: [492.038922ms] [256.324597ms] Transaction prepared
+I0424 13:15:20.794335       1 trace.go:116] Trace[218319631]: "Patch" url:/api/v1/namespaces/kube-system/events/coredns-66bff467f8-jx2t2.1608c3b9ca0ff98c,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:20.244153223 +0000 UTC m=+72.560796869) (total time: 550.165528ms):
+Trace[218319631]: [235.777581ms] [235.75706ms] About to apply patch
+Trace[218319631]: [550.120125ms] [314.065096ms] Object stored in database
+I0424 13:15:21.809086       1 trace.go:116] Trace[1885215517]: "List etcd3" key:/masterleases/,resourceVersion:0,limit:0,continue: (started: 2020-04-24 13:15:21.082904675 +0000 UTC m=+73.399548321) (total time: 726.154696ms):
+Trace[1885215517]: [726.154696ms] [726.154696ms] END
+I0424 13:15:21.810071       1 trace.go:116] Trace[1467944630]: "Get" url:/apis/crd.projectcalico.org/v1/ipamblocks/192-168-219-64-26,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:20.79907146 +0000 UTC m=+73.115715106) (total time: 1.010980416s):
+Trace[1467944630]: [1.0108292s] [1.010801784s] About to write a response
+I0424 13:15:21.810254       1 trace.go:116] Trace[1939311640]: "Get" url:/apis/crd.projectcalico.org/v1/ipamhandles/k8s-pod-network.9b6463c26283a9a00224ec5851ab6f9454bb7eb000dc309ade3b0247936ce92e,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:20.804476429 +0000 UTC m=+73.121120074) (total time: 1.005759929s):
+Trace[1939311640]: [1.005542092s] [1.00551737s] About to write a response
+I0424 13:15:22.532009       1 trace.go:116] Trace[216996057]: "Get" url:/apis/crd.projectcalico.org/v1/ipamhandles/k8s-pod-network.9b6463c26283a9a00224ec5851ab6f9454bb7eb000dc309ade3b0247936ce92e,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:21.815061098 +0000 UTC m=+74.131704736) (total time: 716.916843ms):
+Trace[216996057]: [716.818557ms] [716.793374ms] About to write a response
+I0424 13:15:22.535566       1 trace.go:116] Trace[782272418]: "GuaranteedUpdate etcd3" type:*unstructured.Unstructured (started: 2020-04-24 13:15:21.811646307 +0000 UTC m=+74.128289953) (total time: 723.89485ms):
+Trace[782272418]: [723.508968ms] [722.932945ms] Transaction committed
+I0424 13:15:22.535908       1 trace.go:116] Trace[1793889522]: "Update" url:/apis/crd.projectcalico.org/v1/ipamblocks/192-168-219-64-26,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:21.811392882 +0000 UTC m=+74.128036521) (total time: 724.488595ms):
+Trace[1793889522]: [724.239569ms] [724.0274ms] Object stored in database
+I0424 13:15:23.547889       1 trace.go:116] Trace[826456830]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:22.597020116 +0000 UTC m=+74.913663792) (total time: 950.844642ms):
+Trace[826456830]: [950.824347ms] [950.259801ms] Transaction committed
+I0424 13:15:23.547976       1 trace.go:116] Trace[437552807]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:22.596934758 +0000 UTC m=+74.913578406) (total time: 951.023076ms):
+Trace[437552807]: [950.984081ms] [950.924291ms] Object stored in database
+I0424 13:15:23.548685       1 trace.go:116] Trace[1880754974]: "Create" url:/api/v1/namespaces/kube-system/events,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:22.843256756 +0000 UTC m=+75.159900397) (total time: 705.401059ms):
+Trace[1880754974]: [705.333482ms] [705.279831ms] Object stored in database
+I0424 13:15:23.551755       1 trace.go:116] Trace[767385116]: "List etcd3" key:/cronjobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 13:15:22.59409563 +0000 UTC m=+74.910739269) (total time: 957.630891ms):
+Trace[767385116]: [957.630891ms] [957.630891ms] END
+I0424 13:15:23.551835       1 trace.go:116] Trace[1585941890]: "List" url:/apis/batch/v1beta1/cronjobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 13:15:22.594078118 +0000 UTC m=+74.910721756) (total time: 957.742155ms):
+Trace[1585941890]: [957.689648ms] [957.676998ms] Listing from storage done
+I0424 13:15:23.553332       1 trace.go:116] Trace[556137025]: "GuaranteedUpdate etcd3" type:*unstructured.Unstructured (started: 2020-04-24 13:15:22.59341643 +0000 UTC m=+74.910060083) (total time: 959.885884ms):
+Trace[556137025]: [959.494396ms] [958.872029ms] Transaction committed
+I0424 13:15:23.554407       1 trace.go:116] Trace[1258437259]: "Update" url:/apis/crd.projectcalico.org/v1/ipamhandles/k8s-pod-network.f644be1a1078ced473446ac1aeb1ff5bf894224323703ba0e2bcac285b49cedd,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:22.593259949 +0000 UTC m=+74.909903587) (total time: 961.099058ms):
+Trace[1258437259]: [960.10417ms] [959.984574ms] Object stored in database
+I0424 13:15:23.577102       1 trace.go:116] Trace[334243105]: "Get" url:/api/v1/nodes/master,user-agent:calico-ipam/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:22.596934798 +0000 UTC m=+74.913578436) (total time: 980.143104ms):
+Trace[334243105]: [979.683889ms] [979.678038ms] About to write a response
+I0424 13:15:24.513106       1 trace.go:116] Trace[1922830711]: "Delete" url:/apis/crd.projectcalico.org/v1/ipamhandles/k8s-pod-network.f644be1a1078ced473446ac1aeb1ff5bf894224323703ba0e2bcac285b49cedd,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:23.57722664 +0000 UTC m=+75.893870279) (total time: 935.848695ms):
+Trace[1922830711]: [935.73848ms] [935.664802ms] Object deleted from database
+I0424 13:15:25.162726       1 trace.go:116] Trace[153563687]: "Get" url:/apis/crd.projectcalico.org/v1/ipamhandles/kube-system.coredns-66bff467f8-bfq5l,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:24.079746469 +0000 UTC m=+76.396390109) (total time: 1.082947883s):
+Trace[153563687]: [1.082947883s] [1.082923062s] END
+I0424 13:15:25.165963       1 trace.go:116] Trace[42422164]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:15:24.514728822 +0000 UTC m=+76.831372485) (total time: 651.194678ms):
+Trace[42422164]: [651.149197ms] [650.760538ms] Transaction committed
+I0424 13:15:25.166117       1 trace.go:116] Trace[1115652310]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:24.51464223 +0000 UTC m=+76.831285882) (total time: 651.428192ms):
+Trace[1115652310]: [651.3632ms] [651.304851ms] Object stored in database
+I0424 13:15:25.166370       1 trace.go:116] Trace[1653288092]: "Get" url:/api/v1/nodes/master,user-agent:calico-ipam/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:24.514799416 +0000 UTC m=+76.831443058) (total time: 651.478979ms):
+Trace[1653288092]: [649.454067ms] [649.449487ms] About to write a response
+I0424 13:15:26.830452       1 trace.go:116] Trace[1683928441]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:26.006679295 +0000 UTC m=+78.323322940) (total time: 823.634138ms):
+Trace[1683928441]: [823.522051ms] [823.503759ms] About to write a response
+I0424 13:15:27.788621       1 trace.go:116] Trace[1974097661]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:27.170367075 +0000 UTC m=+79.487010722) (total time: 618.231841ms):
+Trace[1974097661]: [618.199805ms] [618.173005ms] About to write a response
+I0424 13:15:28.373974       1 trace.go:116] Trace[21275094]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:27.795688103 +0000 UTC m=+80.112331741) (total time: 578.256656ms):
+Trace[21275094]: [578.197854ms] [578.183239ms] About to write a response
+I0424 13:15:29.187574       1 trace.go:116] Trace[1901394980]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 13:15:27.793356423 +0000 UTC m=+80.110000069) (total time: 1.394188551s):
+Trace[1901394980]: [581.497751ms] [581.497751ms] initial value restored
+Trace[1901394980]: [1.394173649s] [811.765868ms] Transaction committed
+I0424 13:15:29.189174       1 trace.go:116] Trace[1784358777]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:15:28.375270958 +0000 UTC m=+80.691914631) (total time: 813.8832ms):
+Trace[1784358777]: [813.86373ms] [813.593774ms] Transaction committed
+I0424 13:15:29.189314       1 trace.go:116] Trace[263072986]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:28.375146468 +0000 UTC m=+80.691790136) (total time: 814.095281ms):
+Trace[263072986]: [814.058559ms] [813.961206ms] Object stored in database
+I0424 13:15:30.353848       1 trace.go:116] Trace[1033423798]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:15:29.617261972 +0000 UTC m=+81.933905659) (total time: 736.433772ms):
+Trace[1033423798]: [736.382532ms] [736.049391ms] Transaction committed
+I0424 13:15:30.354192       1 trace.go:116] Trace[408995584]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:29.616873583 +0000 UTC m=+81.933517228) (total time: 737.143654ms):
+Trace[408995584]: [737.043029ms] [736.70871ms] Object stored in database
+I0424 13:15:31.051265       1 trace.go:116] Trace[1712431723]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:15:30.371744922 +0000 UTC m=+82.688388608) (total time: 679.494309ms):
+Trace[1712431723]: [679.439356ms] [677.640246ms] Transaction committed
+I0424 13:15:31.051621       1 trace.go:116] Trace[304151605]: "Patch" url:/api/v1/namespaces/kube-system/pods/calico-kube-controllers-75d56dfc47-86t9t/status,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:30.371609859 +0000 UTC m=+82.688253509) (total time: 679.989401ms):
+Trace[304151605]: [679.673805ms] [677.981041ms] Object stored in database
+I0424 13:15:32.121991       1 trace.go:116] Trace[783294521]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:31.595703308 +0000 UTC m=+83.912346974) (total time: 526.257799ms):
+Trace[783294521]: [526.211932ms] [525.796048ms] Transaction committed
+I0424 13:15:32.122113       1 trace.go:116] Trace[1669092458]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:31.595605779 +0000 UTC m=+83.912249426) (total time: 526.46653ms):
+Trace[1669092458]: [526.41645ms] [526.350259ms] Object stored in database
+I0424 13:15:32.123512       1 trace.go:116] Trace[1116331220]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:31.597962779 +0000 UTC m=+83.914606426) (total time: 525.521843ms):
+Trace[1116331220]: [525.454188ms] [525.437421ms] About to write a response
+I0424 13:15:32.915871       1 trace.go:116] Trace[38775104]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:15:32.127673847 +0000 UTC m=+84.444317509) (total time: 788.171008ms):
+Trace[38775104]: [788.135941ms] [787.877669ms] Transaction committed
+I0424 13:15:32.916084       1 trace.go:116] Trace[1978338515]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:32.127588822 +0000 UTC m=+84.444232468) (total time: 788.430374ms):
+Trace[1978338515]: [788.307287ms] [788.248092ms] Object stored in database
+I0424 13:15:35.043918       1 trace.go:116] Trace[381928341]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:34.138588641 +0000 UTC m=+86.455232286) (total time: 905.303851ms):
+Trace[381928341]: [905.25751ms] [905.244908ms] About to write a response
+I0424 13:15:35.683134       1 trace.go:116] Trace[2098914217]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:35.046674761 +0000 UTC m=+87.363318421) (total time: 636.437473ms):
+Trace[2098914217]: [636.422833ms] [636.089211ms] Transaction committed
+I0424 13:15:35.683217       1 trace.go:116] Trace[117851048]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:35.04655063 +0000 UTC m=+87.363194270) (total time: 636.64855ms):
+Trace[117851048]: [636.612648ms] [636.520017ms] Object stored in database
+I0424 13:15:37.947630       1 trace.go:116] Trace[954130541]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:37.113859894 +0000 UTC m=+89.430503538) (total time: 833.746909ms):
+Trace[954130541]: [833.718884ms] [833.704729ms] About to write a response
+I0424 13:15:38.548592       1 trace.go:116] Trace[1361932523]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:37.950673933 +0000 UTC m=+90.267317599) (total time: 597.896705ms):
+Trace[1361932523]: [597.878284ms] [597.420036ms] Transaction committed
+I0424 13:15:38.548691       1 trace.go:116] Trace[998206414]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:37.950473445 +0000 UTC m=+90.267117089) (total time: 598.199926ms):
+Trace[998206414]: [598.156205ms] [598.024142ms] Object stored in database
+I0424 13:15:38.550271       1 trace.go:116] Trace[1591486397]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 13:15:37.950411922 +0000 UTC m=+90.267055567) (total time: 599.837597ms):
+Trace[1591486397]: [596.61788ms] [595.649224ms] Transaction prepared
+I0424 13:15:40.495802       1 trace.go:116] Trace[467391365]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:39.963333187 +0000 UTC m=+92.279976831) (total time: 532.434875ms):
+Trace[467391365]: [532.38508ms] [532.370855ms] About to write a response
+I0424 13:15:41.887996       1 trace.go:116] Trace[949958809]: "Get" url:/api/v1/namespaces/kube-system,user-agent:calico/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:41.264702584 +0000 UTC m=+93.581346229) (total time: 623.253126ms):
+Trace[949958809]: [623.119008ms] [623.112318ms] About to write a response
+I0424 13:15:41.888347       1 trace.go:116] Trace[856826369]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:41.261179152 +0000 UTC m=+93.577822796) (total time: 627.143295ms):
+Trace[856826369]: [627.097572ms] [627.07584ms] About to write a response
+I0424 13:15:41.890933       1 trace.go:116] Trace[623593896]: "List etcd3" key:/crd.projectcalico.org/blockaffinities,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:41.25543914 +0000 UTC m=+93.572082794) (total time: 635.3571ms):
+Trace[623593896]: [635.3571ms] [635.3571ms] END
+I0424 13:15:41.892900       1 trace.go:116] Trace[187084244]: "List" url:/apis/crd.projectcalico.org/v1/blockaffinities,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:41.25540275 +0000 UTC m=+93.572046397) (total time: 636.991363ms):
+Trace[187084244]: [635.648162ms] [635.618013ms] Listing from storage done
+I0424 13:15:43.274574       1 trace.go:116] Trace[1596033598]: "GuaranteedUpdate etcd3" type:*unstructured.Unstructured (started: 2020-04-24 13:15:42.451406866 +0000 UTC m=+94.768050530) (total time: 823.097692ms):
+Trace[1596033598]: [822.737408ms] [821.380843ms] Transaction committed
+I0424 13:15:43.274819       1 trace.go:116] Trace[1357447853]: "Update" url:/apis/crd.projectcalico.org/v1/ipamblocks/192-168-219-64-26,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:42.450825373 +0000 UTC m=+94.767469026) (total time: 823.976678ms):
+Trace[1357447853]: [823.787584ms] [823.342751ms] Object stored in database
+I0424 13:15:43.276626       1 trace.go:116] Trace[1323316671]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:42.522327819 +0000 UTC m=+94.838971462) (total time: 754.275784ms):
+Trace[1323316671]: [754.249337ms] [754.2268ms] About to write a response
+I0424 13:15:43.276773       1 trace.go:116] Trace[1381763260]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:15:42.455348935 +0000 UTC m=+94.771992671) (total time: 821.412833ms):
+Trace[1381763260]: [821.356437ms] [818.922849ms] Transaction committed
+I0424 13:15:43.277026       1 trace.go:116] Trace[1332128413]: "Patch" url:/api/v1/namespaces/kube-system/pods/coredns-66bff467f8-jx2t2/status,user-agent:calico/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:42.441017032 +0000 UTC m=+94.757660675) (total time: 835.995117ms):
+Trace[1332128413]: [835.767884ms] [819.306362ms] Object stored in database
+I0424 13:15:43.969490       1 trace.go:116] Trace[1070477630]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:43.322158593 +0000 UTC m=+95.638802231) (total time: 647.300054ms):
+Trace[1070477630]: [647.253922ms] [647.237021ms] About to write a response
+I0424 13:15:43.971314       1 trace.go:116] Trace[778032581]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:15:43.352589037 +0000 UTC m=+95.669232689) (total time: 618.708375ms):
+Trace[778032581]: [618.629501ms] [616.561217ms] Transaction committed
+I0424 13:15:43.972188       1 trace.go:116] Trace[1253424249]: "Patch" url:/api/v1/namespaces/kube-system/pods/coredns-66bff467f8-bfq5l/status,user-agent:calico/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:43.35246029 +0000 UTC m=+95.669103929) (total time: 619.704766ms):
+Trace[1253424249]: [618.911657ms] [617.025703ms] Object stored in database
+I0424 13:15:44.285544       1 trace.go:116] Trace[936251325]: "Get" url:/api/v1/nodes/foo,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:43.530040026 +0000 UTC m=+95.846683665) (total time: 755.472158ms):
+Trace[936251325]: [755.472158ms] [755.465723ms] END
+I0424 13:15:44.292871       1 trace.go:116] Trace[1693735832]: "List etcd3" key:/jobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 13:15:43.654703774 +0000 UTC m=+95.971347412) (total time: 638.14306ms):
+Trace[1693735832]: [638.14306ms] [638.14306ms] END
+I0424 13:15:44.292944       1 trace.go:116] Trace[396796833]: "List" url:/apis/batch/v1/jobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 13:15:43.654683598 +0000 UTC m=+95.971327237) (total time: 638.243423ms):
+Trace[396796833]: [638.21136ms] [638.196701ms] Listing from storage done
+I0424 13:15:45.758420       1 trace.go:116] Trace[1256237714]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:44.581873922 +0000 UTC m=+96.898517564) (total time: 1.176520618s):
+Trace[1256237714]: [1.176297965s] [1.176268539s] About to write a response
+I0424 13:15:45.758624       1 trace.go:116] Trace[139998895]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:44.301526906 +0000 UTC m=+96.618170590) (total time: 1.457081034s):
+Trace[139998895]: [1.457061086s] [1.456694739s] Transaction committed
+I0424 13:15:45.759530       1 trace.go:116] Trace[482334109]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:44.3014327 +0000 UTC m=+96.618076350) (total time: 1.457415391s):
+Trace[482334109]: [1.457219526s] [1.457153532s] Object stored in database
+I0424 13:15:45.760207       1 trace.go:116] Trace[826889734]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:15:44.297641464 +0000 UTC m=+96.614285147) (total time: 1.46254953s):
+Trace[826889734]: [1.462484306s] [1.459718185s] Transaction committed
+I0424 13:15:45.760745       1 trace.go:116] Trace[230638546]: "GuaranteedUpdate etcd3" type:*core.Node (started: 2020-04-24 13:15:44.996189849 +0000 UTC m=+97.312833578) (total time: 764.538872ms):
+Trace[230638546]: [764.484344ms] [762.510014ms] Transaction committed
+I0424 13:15:45.761434       1 trace.go:116] Trace[379144390]: "Patch" url:/api/v1/namespaces/kube-system/pods/calico-kube-controllers-75d56dfc47-86t9t/status,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:44.297503842 +0000 UTC m=+96.614147485) (total time: 1.463906259s):
+Trace[379144390]: [1.463034664s] [1.460325818s] Object stored in database
+I0424 13:15:45.762103       1 trace.go:116] Trace[1339573537]: "Update" url:/api/v1/nodes/worker1/status,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:node-controller,client:192.168.32.2 (started: 2020-04-24 13:15:44.995733941 +0000 UTC m=+97.312377621) (total time: 766.102372ms):
+Trace[1339573537]: [765.717269ms] [765.386098ms] Object stored in database
+I0424 13:15:47.286281       1 trace.go:116] Trace[258053983]: "GuaranteedUpdate etcd3" type:*core.Node (started: 2020-04-24 13:15:46.757304452 +0000 UTC m=+99.073948105) (total time: 528.941588ms):
+Trace[258053983]: [528.854933ms] [526.869507ms] Transaction committed
+I0424 13:15:47.286667       1 trace.go:116] Trace[1902342263]: "Patch" url:/api/v1/nodes/worker2,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:node-controller,client:192.168.32.2 (started: 2020-04-24 13:15:46.757220621 +0000 UTC m=+99.073864267) (total time: 529.414686ms):
+Trace[1902342263]: [529.107041ms] [527.554193ms] Object stored in database
+I0424 13:15:47.289132       1 trace.go:116] Trace[1533484063]: "GuaranteedUpdate etcd3" type:*core.Pod (started: 2020-04-24 13:15:46.772595166 +0000 UTC m=+99.089238832) (total time: 516.507145ms):
+Trace[1533484063]: [516.414061ms] [515.439401ms] Transaction committed
+I0424 13:15:47.289355       1 trace.go:116] Trace[172950485]: "Update" url:/api/v1/namespaces/default/pods/mytestwebapp/status,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:node-controller,client:192.168.32.2 (started: 2020-04-24 13:15:46.772426182 +0000 UTC m=+99.089069821) (total time: 516.899092ms):
+Trace[172950485]: [516.81354ms] [516.68231ms] Object stored in database
+I0424 13:15:47.289764       1 trace.go:116] Trace[495313075]: "Create" url:/api/v1/namespaces/default/events,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:node-controller,client:192.168.32.2 (started: 2020-04-24 13:15:46.774113344 +0000 UTC m=+99.090756982) (total time: 515.615257ms):
+Trace[495313075]: [515.556166ms] [515.361752ms] Object stored in database
+I0424 13:15:47.290109       1 trace.go:116] Trace[1541804269]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:46.776045769 +0000 UTC m=+99.092689449) (total time: 514.041616ms):
+Trace[1541804269]: [514.001614ms] [513.650467ms] Transaction committed
+I0424 13:15:47.290218       1 trace.go:116] Trace[570579038]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:46.775926081 +0000 UTC m=+99.092569719) (total time: 514.271007ms):
+Trace[570579038]: [514.227221ms] [514.13209ms] Object stored in database
+I0424 13:15:47.293081       1 trace.go:116] Trace[370222885]: "Get" url:/api/v1/nodes/master,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:46.566369407 +0000 UTC m=+98.883013055) (total time: 724.755151ms):
+Trace[370222885]: [723.735493ms] [723.728215ms] About to write a response
+I0424 13:15:50.967192       1 trace.go:116] Trace[1454665593]: "List etcd3" key:/crd.projectcalico.org/bgppeers,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:50.332909929 +0000 UTC m=+102.649553594) (total time: 634.234902ms):
+Trace[1454665593]: [634.234902ms] [634.234902ms] END
+I0424 13:15:50.967511       1 trace.go:116] Trace[823784079]: "List" url:/apis/crd.projectcalico.org/v1/bgppeers,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:50.332870368 +0000 UTC m=+102.649514036) (total time: 634.601533ms):
+Trace[823784079]: [634.360834ms] [634.3269ms] Listing from storage done
+I0424 13:15:50.975459       1 trace.go:116] Trace[481333855]: "List etcd3" key:/crd.projectcalico.org/bgpconfigurations,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:50.332562344 +0000 UTC m=+102.649206011) (total time: 642.860605ms):
+Trace[481333855]: [642.860605ms] [642.860605ms] END
+I0424 13:15:50.976999       1 trace.go:116] Trace[1790870291]: "List" url:/apis/crd.projectcalico.org/v1/bgpconfigurations,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:50.33251561 +0000 UTC m=+102.649159273) (total time: 644.452849ms):
+Trace[1790870291]: [644.333874ms] [644.29529ms] Listing from storage done
+I0424 13:15:50.976809       1 trace.go:116] Trace[1805813317]: "List etcd3" key:/minions,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:50.332897733 +0000 UTC m=+102.649541380) (total time: 643.872612ms):
+Trace[1805813317]: [643.872612ms] [643.872612ms] END
+I0424 13:15:50.977453       1 trace.go:116] Trace[652294286]: "List etcd3" key:/crd.projectcalico.org/blockaffinities,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:50.332097439 +0000 UTC m=+102.648741099) (total time: 645.329207ms):
+Trace[652294286]: [645.329207ms] [645.329207ms] END
+I0424 13:15:50.981539       1 trace.go:116] Trace[641243008]: "List etcd3" key:/crd.projectcalico.org/ippools,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:50.333074688 +0000 UTC m=+102.649718347) (total time: 648.438992ms):
+Trace[641243008]: [648.438992ms] [648.438992ms] END
+I0424 13:15:50.981702       1 trace.go:116] Trace[706577678]: "List" url:/apis/crd.projectcalico.org/v1/blockaffinities,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:50.332047393 +0000 UTC m=+102.648691067) (total time: 648.886565ms):
+Trace[706577678]: [648.647701ms] [648.605947ms] Listing from storage done
+I0424 13:15:50.982014       1 trace.go:116] Trace[356819363]: "List" url:/apis/crd.projectcalico.org/v1/ippools,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:50.333049354 +0000 UTC m=+102.649693010) (total time: 648.941696ms):
+Trace[356819363]: [648.522058ms] [648.501678ms] Listing from storage done
+I0424 13:15:50.982506       1 trace.go:116] Trace[464008747]: "List" url:/api/v1/nodes,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:50.332887225 +0000 UTC m=+102.649530882) (total time: 649.593528ms):
+Trace[464008747]: [646.88834ms] [646.882658ms] Listing from storage done
+I0424 13:15:50.990854       1 trace.go:116] Trace[988385022]: "Get" url:/apis/crd.projectcalico.org/v1/felixconfigurations/default,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:50.338390636 +0000 UTC m=+102.655034290) (total time: 652.421084ms):
+Trace[988385022]: [651.755646ms] [651.72417ms] About to write a response
+I0424 13:15:51.550902       1 trace.go:116] Trace[1015899432]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:51.030296511 +0000 UTC m=+103.346940164) (total time: 520.543902ms):
+Trace[1015899432]: [520.453667ms] [520.427513ms] About to write a response
+I0424 13:15:51.553444       1 trace.go:116] Trace[1918916256]: "Get" url:/api/v1/nodes/master,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:51.017072342 +0000 UTC m=+103.333716035) (total time: 536.308639ms):
+Trace[1918916256]: [535.41133ms] [535.397104ms] About to write a response
+I0424 13:15:51.588331       1 trace.go:116] Trace[1049220614]: "Get" url:/api/v1/namespaces/kube-system/pods/coredns-66bff467f8-bfq5l,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:51.029480057 +0000 UTC m=+103.346123708) (total time: 558.803843ms):
+Trace[1049220614]: [554.96362ms] [554.951838ms] About to write a response
+I0424 13:15:53.304314       1 trace.go:116] Trace[2098947515]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:52.094784678 +0000 UTC m=+104.411428322) (total time: 1.209487702s):
+Trace[2098947515]: [1.209426114s] [1.209408888s] About to write a response
+I0424 13:15:53.306595       1 trace.go:116] Trace[1535596459]: "GuaranteedUpdate etcd3" type:*discovery.EndpointSlice (started: 2020-04-24 13:15:52.109472725 +0000 UTC m=+104.426116393) (total time: 1.197090092s):
+Trace[1535596459]: [1.197040128s] [1.196523976s] Transaction committed
+I0424 13:15:53.306945       1 trace.go:116] Trace[2109569666]: "Update" url:/apis/discovery.k8s.io/v1beta1/namespaces/kube-system/endpointslices/kube-dns-2l55g,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:endpointslice-controller,client:192.168.32.2 (started: 2020-04-24 13:15:52.109355157 +0000 UTC m=+104.425998803) (total time: 1.197556742s):
+Trace[2109569666]: [1.197482995s] [1.197401264s] Object stored in database
+I0424 13:15:53.307946       1 trace.go:116] Trace[1650498985]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:52.110387366 +0000 UTC m=+104.427031034) (total time: 1.197537991s):
+Trace[1650498985]: [1.197500888s] [1.197077712s] Transaction committed
+I0424 13:15:53.308254       1 trace.go:116] Trace[744343714]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-dns,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:endpoint-controller,client:192.168.32.2 (started: 2020-04-24 13:15:52.110305994 +0000 UTC m=+104.426949640) (total time: 1.197925252s):
+Trace[744343714]: [1.197787595s] [1.19773373s] Object stored in database
+I0424 13:15:53.695133       1 trace.go:116] Trace[104865796]: "Get" url:/api/v1/nodes/master,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:52.852065341 +0000 UTC m=+105.168708990) (total time: 843.038243ms):
+Trace[104865796]: [842.526676ms] [842.518134ms] About to write a response
+I0424 13:15:54.182896       1 trace.go:116] Trace[2061358764]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:53.576575624 +0000 UTC m=+105.893219276) (total time: 606.290015ms):
+Trace[2061358764]: [606.259991ms] [606.221788ms] About to write a response
+I0424 13:15:54.744659       1 trace.go:116] Trace[31248707]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:15:54.187765626 +0000 UTC m=+106.504409312) (total time: 556.865232ms):
+Trace[31248707]: [556.845867ms] [556.508231ms] Transaction committed
+I0424 13:15:54.744739       1 trace.go:116] Trace[513694849]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:54.187661882 +0000 UTC m=+106.504305534) (total time: 557.059626ms):
+Trace[513694849]: [557.019752ms] [556.946905ms] Object stored in database
+I0424 13:15:54.745142       1 trace.go:116] Trace[1819156131]: "List etcd3" key:/crd.projectcalico.org/ippools,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:54.190033547 +0000 UTC m=+106.506677191) (total time: 555.094758ms):
+Trace[1819156131]: [555.094758ms] [555.094758ms] END
+I0424 13:15:54.745280       1 trace.go:116] Trace[1105886011]: "List" url:/apis/crd.projectcalico.org/v1/ippools,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:54.189989207 +0000 UTC m=+106.506632851) (total time: 555.277072ms):
+Trace[1105886011]: [555.163686ms] [555.128016ms] Listing from storage done
+I0424 13:15:55.554399       1 trace.go:116] Trace[1564944683]: "Create" url:/api/v1/namespaces/kube-system/events,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:15:54.631735871 +0000 UTC m=+106.948379518) (total time: 922.627704ms):
+Trace[1564944683]: [922.350721ms] [922.282242ms] Object stored in database
+I0424 13:15:55.556343       1 trace.go:116] Trace[470376276]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:54.745796654 +0000 UTC m=+107.062440308) (total time: 810.446772ms):
+Trace[470376276]: [810.354366ms] [810.339377ms] About to write a response
+I0424 13:15:55.558143       1 trace.go:116] Trace[1304176975]: "Get" url:/apis/crd.projectcalico.org/v1/ipamblocks/192-168-219-64-26,user-agent:Go-http-client/2.0,client:10.0.2.15 (started: 2020-04-24 13:15:54.746183019 +0000 UTC m=+107.062826662) (total time: 811.918344ms):
+Trace[1304176975]: [811.429905ms] [811.329192ms] About to write a response
+I0424 13:15:55.559311       1 trace.go:116] Trace[372049726]: "List etcd3" key:/jobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 13:15:54.303244703 +0000 UTC m=+106.619888356) (total time: 1.256037617s):
+Trace[372049726]: [1.256037617s] [1.256037617s] END
+I0424 13:15:55.559584       1 trace.go:116] Trace[1792962804]: "List" url:/apis/batch/v1/jobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 13:15:54.30322039 +0000 UTC m=+106.619864035) (total time: 1.2563344s):
+Trace[1792962804]: [1.256262322s] [1.256243763s] Listing from storage done
+I0424 13:15:56.296140       1 trace.go:116] Trace[1994582987]: "List etcd3" key:/cronjobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 13:15:55.562172545 +0000 UTC m=+107.878816202) (total time: 733.939498ms):
+Trace[1994582987]: [733.939498ms] [733.939498ms] END
+I0424 13:15:56.296411       1 trace.go:116] Trace[843473669]: "List" url:/apis/batch/v1beta1/cronjobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 13:15:55.562147929 +0000 UTC m=+107.878791587) (total time: 734.236665ms):
+Trace[843473669]: [734.11158ms] [734.093774ms] Listing from storage done
+I0424 13:15:56.297929       1 trace.go:116] Trace[1352356484]: "Get" url:/api/v1/nodes/master,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:55.562124545 +0000 UTC m=+107.878768193) (total time: 735.779471ms):
+Trace[1352356484]: [735.513466ms] [735.505057ms] About to write a response
+I0424 13:15:58.936501       1 trace.go:116] Trace[186363375]: "Get" url:/api/v1/namespaces/default/endpoints/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:15:58.284327941 +0000 UTC m=+110.600971589) (total time: 652.135286ms):
+Trace[186363375]: [652.085354ms] [652.079145ms] About to write a response
+I0424 13:15:58.940520       1 trace.go:116] Trace[234464877]: "List etcd3" key:/networkpolicies,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:58.298687103 +0000 UTC m=+110.615330749) (total time: 641.794751ms):
+Trace[234464877]: [641.794751ms] [641.794751ms] END
+I0424 13:15:58.940911       1 trace.go:116] Trace[1539518142]: "List" url:/apis/networking.k8s.io/v1/networkpolicies,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:58.298651292 +0000 UTC m=+110.615294951) (total time: 642.233154ms):
+Trace[1539518142]: [641.88639ms] [641.878364ms] Listing from storage done
+I0424 13:15:58.942061       1 trace.go:116] Trace[947740799]: "List etcd3" key:/serviceaccounts,resourceVersion:,limit:0,continue: (started: 2020-04-24 13:15:58.280857477 +0000 UTC m=+110.597501136) (total time: 661.178046ms):
+Trace[947740799]: [661.178046ms] [661.178046ms] END
+I0424 13:15:58.944375       1 trace.go:116] Trace[691100337]: "List" url:/api/v1/serviceaccounts,user-agent:calico-node/v0.0.0 (linux/amd64) kubernetes/$Format,client:10.0.2.15 (started: 2020-04-24 13:15:58.28084708 +0000 UTC m=+110.597490735) (total time: 663.461672ms):
+Trace[691100337]: [661.224245ms] [661.218846ms] Listing from storage done
+I0424 13:15:59.561943       1 trace.go:116] Trace[151924358]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:58.961456032 +0000 UTC m=+111.278099688) (total time: 600.451132ms):
+Trace[151924358]: [600.399008ms] [600.381165ms] About to write a response
+I0424 13:16:00.404065       1 trace.go:116] Trace[2089633097]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:15:59.888378125 +0000 UTC m=+112.205021783) (total time: 515.6261ms):
+Trace[2089633097]: [515.581544ms] [515.516173ms] About to write a response
+I0424 13:16:05.984180       1 trace.go:116] Trace[61076485]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:16:05.280936642 +0000 UTC m=+117.597580288) (total time: 703.193821ms):
+Trace[61076485]: [703.120229ms] [703.101137ms] About to write a response
+I0424 13:16:10.712136       1 trace.go:116] Trace[1230400810]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:16:10.137966856 +0000 UTC m=+122.454610512) (total time: 574.08639ms):
+Trace[1230400810]: [573.91804ms] [573.894393ms] About to write a response
+I0424 13:16:16.758174       1 trace.go:116] Trace[650971453]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:16:16.185576514 +0000 UTC m=+128.502220175) (total time: 572.543293ms):
+Trace[650971453]: [572.465002ms] [572.441156ms] About to write a response
+I0424 13:16:19.597531       1 trace.go:116] Trace[200869346]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:16:17.174773246 +0000 UTC m=+129.491416906) (total time: 2.42271819s):
+Trace[200869346]: [2.422625727s] [2.422601274s] About to write a response
+I0424 13:16:19.606494       1 trace.go:116] Trace[1088589627]: "Create" url:/api/v1/namespaces/kube-system/events,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:16:18.271844706 +0000 UTC m=+130.588488351) (total time: 1.334610827s):
+Trace[1088589627]: [1.334550891s] [1.334351135s] Object stored in database
+I0424 13:16:19.607186       1 trace.go:116] Trace[358666065]: "GuaranteedUpdate etcd3" type:*apps.Deployment (started: 2020-04-24 13:16:17.179531611 +0000 UTC m=+129.496175335) (total time: 2.427628416s):
+Trace[358666065]: [2.427511357s] [2.426247137s] Transaction committed
+I0424 13:16:19.607340       1 trace.go:116] Trace[2097764241]: "Update" url:/apis/apps/v1/namespaces/kube-system/deployments/coredns/status,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:deployment-controller,client:192.168.32.2 (started: 2020-04-24 13:16:17.179319059 +0000 UTC m=+129.495962720) (total time: 2.427997673s):
+Trace[2097764241]: [2.427909203s] [2.427760075s] Object stored in database
+I0424 13:16:21.999920       1 trace.go:116] Trace[1320343719]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:16:19.600994957 +0000 UTC m=+131.917638660) (total time: 2.398869165s):
+Trace[1320343719]: [2.398773607s] [2.398306262s] Transaction committed
+I0424 13:16:22.000411       1 trace.go:116] Trace[880327356]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:16:19.600844605 +0000 UTC m=+131.917488256) (total time: 2.399510442s):
+Trace[880327356]: [2.399340937s] [2.399234146s] Object stored in database
+I0424 13:16:22.001287       1 trace.go:116] Trace[1548518058]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:16:18.765229588 +0000 UTC m=+131.081873233) (total time: 3.236000979s):
+Trace[1548518058]: [3.235932523s] [3.235910472s] About to write a response
+I0424 13:16:22.001319       1 trace.go:116] Trace[679662628]: "Get" url:/api/v1/namespaces/kube-system,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:16:20.237857765 +0000 UTC m=+132.554501433) (total time: 1.763421017s):
+Trace[679662628]: [1.763373439s] [1.763357799s] About to write a response
+I0424 13:16:22.016226       1 trace.go:116] Trace[311445499]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:16:21.204074023 +0000 UTC m=+133.520717744) (total time: 812.063493ms):
+Trace[311445499]: [811.995638ms] [810.812226ms] Transaction committed
+I0424 13:16:22.016534       1 trace.go:116] Trace[1643944415]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:16:21.203823336 +0000 UTC m=+133.520467016) (total time: 812.560194ms):
+Trace[1643944415]: [812.452702ms] [812.251095ms] Object stored in database
+I0424 13:16:22.019170       1 trace.go:116] Trace[1598096567]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:192.168.219.68 (started: 2020-04-24 13:16:21.512133285 +0000 UTC m=+133.828776941) (total time: 506.980273ms):
+Trace[1598096567]: [506.638364ms] [506.593668ms] About to write a response
+I0424 13:16:22.039978       1 trace.go:116] Trace[953860480]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:16:17.793224834 +0000 UTC m=+130.109868493) (total time: 4.246582806s):
+Trace[953860480]: [4.246518637s] [4.246508313s] About to write a response
+I0424 13:17:06.677821       1 trace.go:116] Trace[1066516243]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:17:04.643727739 +0000 UTC m=+176.960371453) (total time: 2.034031253s):
+Trace[1066516243]: [2.033941212s] [2.033896767s] About to write a response
+I0424 13:17:06.694884       1 trace.go:116] Trace[2007644071]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:17:04.418373748 +0000 UTC m=+176.735017461) (total time: 2.276454552s):
+Trace[2007644071]: [2.276397519s] [2.276194236s] About to write a response
+I0424 13:17:29.672231       1 trace.go:116] Trace[1352360537]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker2,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.4 (started: 2020-04-24 13:17:29.115107051 +0000 UTC m=+201.431750754) (total time: 557.071636ms):
+Trace[1352360537]: [549.420053ms] [549.420053ms] About to convert to expected version
+I0424 13:17:58.419136       1 trace.go:116] Trace[1349102352]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:17:57.801810893 +0000 UTC m=+230.118454556) (total time: 617.283549ms):
+Trace[1349102352]: [617.234059ms] [617.216603ms] About to write a response
+I0424 13:27:13.957106       1 trace.go:116] Trace[1137563507]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:27:13.398355485 +0000 UTC m=+785.714999372) (total time: 558.674973ms):
+Trace[1137563507]: [558.548377ms] [522.746391ms] Transaction committed
+I0424 13:27:13.962743       1 trace.go:116] Trace[2144066561]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:27:13.397426446 +0000 UTC m=+785.714070261) (total time: 565.187732ms):
+Trace[2144066561]: [565.004675ms] [564.235243ms] Object stored in database
+I0424 13:27:13.997956       1 trace.go:116] Trace[572862674]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:27:13.3855912 +0000 UTC m=+785.702235005) (total time: 612.215725ms):
+Trace[572862674]: [612.086478ms] [612.004498ms] About to write a response
+I0424 13:27:28.263673       1 trace.go:116] Trace[1115481529]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:27:27.364649425 +0000 UTC m=+799.681293288) (total time: 898.789429ms):
+Trace[1115481529]: [892.233934ms] [891.849024ms] About to write a response
+I0424 13:27:28.300022       1 trace.go:116] Trace[769700918]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:27:27.427696901 +0000 UTC m=+799.744340803) (total time: 872.12117ms):
+Trace[769700918]: [871.845422ms] [871.725711ms] About to write a response
+I0424 13:27:28.947718       1 trace.go:116] Trace[1122157020]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:27:28.421927488 +0000 UTC m=+800.738571447) (total time: 525.632217ms):
+Trace[1122157020]: [525.465002ms] [454.2045ms] Transaction committed
+I0424 13:27:28.948411       1 trace.go:116] Trace[2005036081]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:27:28.418869415 +0000 UTC m=+800.735513406) (total time: 529.400352ms):
+Trace[2005036081]: [529.081365ms] [526.288169ms] Object stored in database
+I0424 13:27:29.016668       1 trace.go:116] Trace[943380034]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:27:28.35239466 +0000 UTC m=+800.669038872) (total time: 664.091883ms):
+Trace[943380034]: [663.721243ms] [663.588243ms] About to write a response
+I0424 13:27:31.678610       1 trace.go:116] Trace[2122513373]: "Get" url:/api/v1/namespaces/default/pods/mytestwebapp/log,user-agent:kubectl/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:27:29.810943933 +0000 UTC m=+802.127587789) (total time: 1.867461847s):
+Trace[2122513373]: [138.02163ms] [137.94715ms] About to write a response
+Trace[2122513373]: [1.867452169s] [1.729430539s] Transformed response object
+I0424 13:27:35.057448       1 trace.go:116] Trace[698436547]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:27:34.46945151 +0000 UTC m=+806.786095674) (total time: 587.849422ms):
+Trace[698436547]: [587.321903ms] [571.516773ms] Transaction committed
+I0424 13:27:35.071954       1 trace.go:116] Trace[1582045678]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:27:34.456085284 +0000 UTC m=+806.772729145) (total time: 615.266935ms):
+Trace[1582045678]: [601.499338ms] [588.400502ms] Object stored in database
+I0424 13:27:35.148252       1 trace.go:116] Trace[1721626906]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:27:34.596948646 +0000 UTC m=+806.913592486) (total time: 551.127453ms):
+Trace[1721626906]: [206.150504ms] [206.150504ms] About to convert to expected version
+Trace[1721626906]: [550.681666ms] [344.168919ms] Object stored in database
+I0424 13:29:33.315808       1 trace.go:116] Trace[14000980]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:29:32.59271672 +0000 UTC m=+924.909360669) (total time: 722.911832ms):
+Trace[14000980]: [722.694268ms] [651.975137ms] Transaction committed
+I0424 13:29:33.320012       1 trace.go:116] Trace[738116237]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:29:32.562187538 +0000 UTC m=+924.878831457) (total time: 755.543945ms):
+Trace[738116237]: [754.310543ms] [724.042108ms] Object stored in database
+I0424 13:29:38.567960       1 trace.go:116] Trace[2026756095]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:29:37.932346458 +0000 UTC m=+930.248990288) (total time: 634.915857ms):
+Trace[2026756095]: [634.280461ms] [634.225952ms] About to write a response
+I0424 13:29:40.160942       1 trace.go:116] Trace[943851821]: "Get" url:/apis/discovery.k8s.io/v1beta1/namespaces/default/endpointslices/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:29:39.578233145 +0000 UTC m=+931.894876966) (total time: 582.471047ms):
+Trace[943851821]: [341.992999ms] [341.939249ms] About to write a response
+Trace[943851821]: [582.462889ms] [240.46989ms] Transformed response object
+I0424 13:34:25.036408       1 trace.go:116] Trace[175344528]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:34:23.749219158 +0000 UTC m=+1216.065862817) (total time: 1.287124684s):
+Trace[175344528]: [1.287033885s] [1.287001225s] About to write a response
+I0424 13:34:25.038389       1 trace.go:116] Trace[40151894]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:34:23.325096186 +0000 UTC m=+1215.641739851) (total time: 1.712994082s):
+Trace[40151894]: [1.712906467s] [1.712881181s] About to write a response
+I0424 13:34:25.064703       1 trace.go:116] Trace[525643621]: "Create" url:/api/v1/namespaces/kube-system/events,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 13:34:24.54105783 +0000 UTC m=+1216.857701486) (total time: 523.587981ms):
+Trace[525643621]: [523.447864ms] [523.376791ms] Object stored in database
+I0424 13:36:19.144449       1 trace.go:116] Trace[145510701]: "List etcd3" key:/masterleases/,resourceVersion:0,limit:0,continue: (started: 2020-04-24 13:36:18.599871235 +0000 UTC m=+1330.916515326) (total time: 544.125415ms):
+Trace[145510701]: [544.125415ms] [544.125415ms] END
+I0424 13:36:20.257916       1 trace.go:116] Trace[2116905020]: "Get" url:/apis/discovery.k8s.io/v1beta1/namespaces/default/endpointslices/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:36:19.170284996 +0000 UTC m=+1331.486928903) (total time: 1.087389416s):
+Trace[2116905020]: [1.087101364s] [1.087056697s] About to write a response
+I0424 13:36:21.608138       1 trace.go:116] Trace[102117983]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:36:21.056515155 +0000 UTC m=+1333.373159018) (total time: 549.849955ms):
+Trace[102117983]: [549.554242ms] [549.30315ms] About to write a response
+I0424 13:36:22.742305       1 trace.go:116] Trace[630291548]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:36:20.994503723 +0000 UTC m=+1333.311147589) (total time: 1.747553879s):
+Trace[630291548]: [1.746595657s] [1.743023402s] About to write a response
+I0424 13:36:22.949448       1 trace.go:116] Trace[239790113]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:36:21.921053299 +0000 UTC m=+1334.237697594) (total time: 1.028152891s):
+Trace[239790113]: [1.027847646s] [1.027196322s] About to write a response
+I0424 13:36:22.954363       1 trace.go:116] Trace[707630513]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:36:21.773615934 +0000 UTC m=+1334.090260692) (total time: 1.180572233s):
+Trace[707630513]: [1.180263178s] [1.133470795s] Transaction committed
+I0424 13:36:22.965120       1 trace.go:116] Trace[1790061030]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker1,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.3 (started: 2020-04-24 13:36:21.758201037 +0000 UTC m=+1334.074844869) (total time: 1.203452838s):
+Trace[1790061030]: [1.202580468s] [1.187944705s] Object stored in database
+I0424 13:36:23.387684       1 trace.go:116] Trace[1473174389]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 13:36:22.172954411 +0000 UTC m=+1334.489598399) (total time: 1.214549193s):
+Trace[1473174389]: [1.210014068s] [1.170020529s] Transaction committed
+I0424 13:36:23.388929       1 trace.go:116] Trace[2076774766]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker2,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.4 (started: 2020-04-24 13:36:22.1640312 +0000 UTC m=+1334.480675240) (total time: 1.224720453s):
+Trace[2076774766]: [1.224214369s] [1.215557321s] Object stored in database
+I0424 13:36:23.463374       1 trace.go:116] Trace[1831204186]: "Get" url:/api/v1/namespaces/kube-system,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 13:36:22.885876014 +0000 UTC m=+1335.202519974) (total time: 577.277542ms):
+Trace[1831204186]: [573.064047ms] [572.880256ms] About to write a response
+I0424 13:36:26.252304       1 trace.go:116] Trace[1041117283]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:36:25.675324639 +0000 UTC m=+1337.991968506) (total time: 576.73373ms):
+Trace[1041117283]: [567.131489ms] [567.005002ms] About to write a response
+I0424 13:51:51.145785       1 trace.go:116] Trace[1316523713]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 13:51:50.322647612 +0000 UTC m=+2262.639291536) (total time: 823.056459ms):
+Trace[1316523713]: [822.998026ms] [809.094767ms] Transaction committed
+I0424 13:51:51.146554       1 trace.go:116] Trace[1695741244]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:51:50.321743433 +0000 UTC m=+2262.638387275) (total time: 824.76539ms):
+Trace[1695741244]: [824.400052ms] [824.154912ms] Object stored in database
+I0424 13:51:51.147646       1 trace.go:116] Trace[1129983115]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:51:50.345145302 +0000 UTC m=+2262.661789057) (total time: 802.458795ms):
+Trace[1129983115]: [802.392809ms] [802.313511ms] About to write a response
+I0424 13:52:46.190997       1 trace.go:116] Trace[1053274519]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:52:45.20674371 +0000 UTC m=+2317.523387456) (total time: 984.146655ms):
+Trace[1053274519]: [983.921264ms] [983.730114ms] About to write a response
+I0424 13:52:46.214666       1 trace.go:116] Trace[1010408589]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 13:52:45.085223851 +0000 UTC m=+2317.401867565) (total time: 1.129263615s):
+Trace[1010408589]: [1.128702448s] [1.128638935s] About to write a response
+I0424 14:15:25.740582       1 trace.go:116] Trace[1531655096]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:25.110367172 +0000 UTC m=+3677.427010811) (total time: 630.181838ms):
+Trace[1531655096]: [630.137851ms] [630.116854ms] About to write a response
+I0424 14:15:25.740805       1 trace.go:116] Trace[1028133591]: "List etcd3" key:/jobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 14:15:25.083619824 +0000 UTC m=+3677.400263473) (total time: 657.167747ms):
+Trace[1028133591]: [657.167747ms] [657.167747ms] END
+I0424 14:15:25.740863       1 trace.go:116] Trace[130036404]: "List" url:/apis/batch/v1/jobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 14:15:25.083597136 +0000 UTC m=+3677.400240777) (total time: 657.251907ms):
+Trace[130036404]: [657.217757ms] [657.20138ms] Listing from storage done
+I0424 14:15:25.742959       1 trace.go:116] Trace[171336471]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:24.967669135 +0000 UTC m=+3677.284312783) (total time: 775.264173ms):
+Trace[171336471]: [775.224062ms] [775.203818ms] About to write a response
+I0424 14:15:28.764616       1 trace.go:116] Trace[54731217]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:15:27.727289479 +0000 UTC m=+3680.043933176) (total time: 1.037288785s):
+Trace[54731217]: [1.037246924s] [1.03601606s] Transaction committed
+I0424 14:15:28.764827       1 trace.go:116] Trace[961454375]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker1,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.3 (started: 2020-04-24 14:15:27.727113955 +0000 UTC m=+3680.043757627) (total time: 1.037687345s):
+Trace[961454375]: [1.037546232s] [1.037419427s] Object stored in database
+I0424 14:15:28.765793       1 trace.go:116] Trace[413610705]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 14:15:25.747096489 +0000 UTC m=+3678.063740200) (total time: 3.018661762s):
+Trace[413610705]: [3.018625045s] [3.018161911s] Transaction committed
+I0424 14:15:28.766204       1 trace.go:116] Trace[1382318024]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:25.746977324 +0000 UTC m=+3678.063620971) (total time: 3.019192918s):
+Trace[1382318024]: [3.019124764s] [3.019039807s] Object stored in database
+I0424 14:15:28.828388       1 trace.go:116] Trace[77923565]: "Get" url:/api/v1/namespaces/default/pods/mytsetwebapp-58cf4c586-zq2cp,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.3 (started: 2020-04-24 14:15:27.727211665 +0000 UTC m=+3680.043855342) (total time: 1.101121015s):
+Trace[77923565]: [1.101019024s] [1.101007454s] About to write a response
+I0424 14:15:28.830430       1 trace.go:116] Trace[1411615018]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:27.751850356 +0000 UTC m=+3680.068494011) (total time: 1.078530596s):
+Trace[1411615018]: [1.078475334s] [1.078395065s] About to write a response
+I0424 14:15:28.833226       1 trace.go:116] Trace[196646339]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 14:15:28.277892002 +0000 UTC m=+3680.594535663) (total time: 555.270108ms):
+Trace[196646339]: [555.19292ms] [555.180462ms] About to write a response
+I0424 14:15:29.554706       1 trace.go:116] Trace[379095915]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:28.833087394 +0000 UTC m=+3681.149731069) (total time: 721.487369ms):
+Trace[379095915]: [721.253086ms] [721.222618ms] About to write a response
+I0424 14:15:29.559698       1 trace.go:116] Trace[1292501872]: "Get" url:/api/v1/namespaces/default/services/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 14:15:28.835078626 +0000 UTC m=+3681.151722298) (total time: 724.441051ms):
+Trace[1292501872]: [724.111017ms] [724.100744ms] About to write a response
+I0424 14:15:29.567533       1 trace.go:116] Trace[635086393]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:28.767559253 +0000 UTC m=+3681.084202914) (total time: 798.602729ms):
+Trace[635086393]: [798.467334ms] [798.442698ms] About to write a response
+I0424 14:15:30.505269       1 trace.go:116] Trace[2073620237]: "Get" url:/apis/discovery.k8s.io/v1beta1/namespaces/default/endpointslices/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 14:15:29.955102042 +0000 UTC m=+3682.271745743) (total time: 550.105667ms):
+Trace[2073620237]: [549.991319ms] [549.975349ms] About to write a response
+I0424 14:15:37.743877       1 trace.go:116] Trace[1745447905]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:36.668269197 +0000 UTC m=+3688.984912836) (total time: 1.075506229s):
+Trace[1745447905]: [1.075271784s] [1.075249367s] About to write a response
+I0424 14:15:37.744182       1 trace.go:116] Trace[885937251]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:36.630435257 +0000 UTC m=+3688.947078900) (total time: 1.113663423s):
+Trace[885937251]: [1.113453589s] [1.113434901s] About to write a response
+I0424 14:15:42.921611       1 trace.go:116] Trace[67724992]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:41.827762917 +0000 UTC m=+3694.144406586) (total time: 1.093724784s):
+Trace[67724992]: [1.093634505s] [1.093608982s] About to write a response
+I0424 14:15:42.922969       1 trace.go:116] Trace[1410552538]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:41.919546283 +0000 UTC m=+3694.236190014) (total time: 1.003381815s):
+Trace[1410552538]: [1.00329914s] [1.003229266s] About to write a response
+I0424 14:15:46.388584       1 trace.go:116] Trace[22523107]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:45.354591754 +0000 UTC m=+3697.671235442) (total time: 1.033949596s):
+Trace[22523107]: [1.033893026s] [1.033864811s] About to write a response
+I0424 14:15:46.965582       1 trace.go:116] Trace[1571128166]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:15:46.395112133 +0000 UTC m=+3698.711755872) (total time: 570.416995ms):
+Trace[1571128166]: [570.368116ms] [569.802839ms] Transaction committed
+I0424 14:15:46.966171       1 trace.go:116] Trace[823432193]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:46.393649185 +0000 UTC m=+3698.710292873) (total time: 572.469667ms):
+Trace[823432193]: [572.327164ms] [571.078624ms] Object stored in database
+I0424 14:15:46.966686       1 trace.go:116] Trace[37346811]: "List etcd3" key:/cronjobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 14:15:46.403728218 +0000 UTC m=+3698.720371891) (total time: 562.908576ms):
+Trace[37346811]: [562.908576ms] [562.908576ms] END
+I0424 14:15:46.967564       1 trace.go:116] Trace[887857767]: "List" url:/apis/batch/v1beta1/cronjobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 14:15:46.403689957 +0000 UTC m=+3698.720333646) (total time: 563.828013ms):
+Trace[887857767]: [563.093296ms] [563.064859ms] Listing from storage done
+I0424 14:15:47.912083       1 trace.go:116] Trace[437514117]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:47.309123864 +0000 UTC m=+3699.625767539) (total time: 602.897299ms):
+Trace[437514117]: [602.727152ms] [602.638276ms] About to write a response
+I0424 14:15:49.422740       1 trace.go:116] Trace[1837607902]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 14:15:48.555607834 +0000 UTC m=+3700.872251558) (total time: 867.100139ms):
+Trace[1837607902]: [867.076428ms] [860.083232ms] Transaction committed
+I0424 14:15:49.424278       1 trace.go:116] Trace[83534101]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:15:48.775190619 +0000 UTC m=+3701.091834334) (total time: 649.05909ms):
+Trace[83534101]: [648.984353ms] [648.445785ms] Transaction committed
+I0424 14:15:49.424667       1 trace.go:116] Trace[118764903]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker1,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.3 (started: 2020-04-24 14:15:48.775057156 +0000 UTC m=+3701.091700809) (total time: 649.582795ms):
+Trace[118764903]: [649.522119ms] [649.425447ms] Object stored in database
+I0424 14:15:50.002648       1 trace.go:116] Trace[1057907583]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:49.425592878 +0000 UTC m=+3701.742236530) (total time: 577.019424ms):
+Trace[1057907583]: [576.938766ms] [576.915683ms] About to write a response
+I0424 14:15:50.006643       1 trace.go:116] Trace[1260727529]: "Get" url:/api/v1/namespaces/default/endpoints/kubernetes,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 14:15:49.423470706 +0000 UTC m=+3701.740114356) (total time: 583.135716ms):
+Trace[1260727529]: [583.065744ms] [583.055517ms] About to write a response
+I0424 14:15:52.196335       1 trace.go:116] Trace[1919916802]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 14:15:50.012593667 +0000 UTC m=+3702.329237408) (total time: 2.183665109s):
+Trace[1919916802]: [2.183586452s] [2.182700697s] Transaction committed
+I0424 14:15:52.197347       1 trace.go:116] Trace[221225054]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:15:50.978084829 +0000 UTC m=+3703.294728728) (total time: 1.219223463s):
+Trace[221225054]: [1.21918081s] [1.217198168s] Transaction committed
+I0424 14:15:52.197834       1 trace.go:116] Trace[686448190]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 14:15:50.977607739 +0000 UTC m=+3703.294251502) (total time: 1.220000577s):
+Trace[686448190]: [1.219906666s] [1.219573412s] Object stored in database
+I0424 14:15:52.198524       1 trace.go:116] Trace[1333655129]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:50.012393649 +0000 UTC m=+3702.329037294) (total time: 2.18607399s):
+Trace[1333655129]: [2.184165526s] [2.184021332s] Object stored in database
+I0424 14:15:52.199010       1 trace.go:116] Trace[1501500393]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:15:50.015824667 +0000 UTC m=+3702.332468313) (total time: 2.18314186s):
+Trace[1501500393]: [2.183082212s] [2.183061508s] About to write a response
+I0424 14:15:52.199902       1 trace.go:116] Trace[1434044687]: "List etcd3" key:/masterleases/,resourceVersion:0,limit:0,continue: (started: 2020-04-24 14:15:50.007223894 +0000 UTC m=+3702.323867563) (total time: 2.192640094s):
+Trace[1434044687]: [2.192640094s] [2.192640094s] END
+I0424 14:15:58.902617       1 trace.go:116] Trace[495608112]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 14:15:58.308934877 +0000 UTC m=+3710.625578569) (total time: 593.606062ms):
+Trace[495608112]: [593.544505ms] [582.459583ms] Transaction committed
+I0424 14:16:07.176187       1 trace.go:116] Trace[880196478]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:02.084681038 +0000 UTC m=+3714.401324728) (total time: 5.091239103s):
+Trace[880196478]: [5.091148242s] [5.091118221s] About to write a response
+I0424 14:16:07.177868       1 trace.go:116] Trace[1465210812]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:16:02.788199459 +0000 UTC m=+3715.104843155) (total time: 4.38958867s):
+Trace[1465210812]: [4.389339455s] [4.387508567s] Transaction committed
+I0424 14:16:07.178519       1 trace.go:116] Trace[273460795]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 14:16:02.777985816 +0000 UTC m=+3715.094629491) (total time: 4.400464202s):
+Trace[273460795]: [4.39999243s] [4.389841587s] Object stored in database
+I0424 14:16:07.179815       1 trace.go:116] Trace[112783642]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:16:02.760356726 +0000 UTC m=+3715.077000444) (total time: 4.41940924s):
+Trace[112783642]: [4.419368688s] [4.418469095s] Transaction committed
+I0424 14:16:07.180124       1 trace.go:116] Trace[1616437618]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker2,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.4 (started: 2020-04-24 14:16:02.004067323 +0000 UTC m=+3714.320711011) (total time: 5.175988977s):
+Trace[1616437618]: [756.053918ms] [756.053918ms] About to convert to expected version
+Trace[1616437618]: [5.175843681s] [4.419723398s] Object stored in database
+I0424 14:16:07.238741       1 trace.go:116] Trace[1538581599]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:02.762319151 +0000 UTC m=+3715.078962826) (total time: 4.476358917s):
+Trace[1538581599]: [4.476277172s] [4.476242546s] About to write a response
+I0424 14:16:07.243904       1 trace.go:116] Trace[944239604]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:192.168.219.68 (started: 2020-04-24 14:16:02.800631841 +0000 UTC m=+3715.117275494) (total time: 4.443220317s):
+Trace[944239604]: [4.442879232s] [4.442844051s] About to write a response
+I0424 14:16:07.826624       1 trace.go:116] Trace[747223156]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 14:16:07.283300105 +0000 UTC m=+3719.599943891) (total time: 543.269907ms):
+Trace[747223156]: [543.216092ms] [542.530271ms] Transaction committed
+I0424 14:16:07.826914       1 trace.go:116] Trace[1552600532]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:07.282983199 +0000 UTC m=+3719.599626900) (total time: 543.854088ms):
+Trace[1552600532]: [543.70131ms] [543.451933ms] Object stored in database
+I0424 14:16:07.830610       1 trace.go:116] Trace[1544861030]: "List etcd3" key:/jobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 14:16:07.309657538 +0000 UTC m=+3719.626301214) (total time: 520.903832ms):
+Trace[1544861030]: [520.903832ms] [520.903832ms] END
+I0424 14:16:07.831001       1 trace.go:116] Trace[1970827633]: "List" url:/apis/batch/v1/jobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 14:16:07.309613716 +0000 UTC m=+3719.626257434) (total time: 521.34589ms):
+Trace[1970827633]: [521.264289ms] [521.229627ms] Listing from storage done
+I0424 14:16:07.838686       1 trace.go:116] Trace[937414175]: "GuaranteedUpdate etcd3" type:*core.Event (started: 2020-04-24 14:16:06.766497671 +0000 UTC m=+3719.083141360) (total time: 1.072157234s):
+Trace[937414175]: [509.535414ms] [509.535414ms] initial value restored
+Trace[937414175]: [1.059963741s] [550.428327ms] Transaction prepared
+I0424 14:16:07.846544       1 trace.go:116] Trace[1481987672]: "Patch" url:/api/v1/namespaces/kube-system/events/etcd-master.1608c4cf9845c8da,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 14:16:06.734349282 +0000 UTC m=+3719.050992956) (total time: 1.112154939s):
+Trace[1481987672]: [541.687118ms] [509.647276ms] About to apply patch
+Trace[1481987672]: [1.105642518s] [563.185534ms] Object stored in database
+I0424 14:16:09.583217       1 trace.go:116] Trace[1381653288]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 14:16:08.312851824 +0000 UTC m=+3720.629495511) (total time: 1.270311816s):
+Trace[1381653288]: [1.270277792s] [1.263492594s] Transaction committed
+I0424 14:16:10.263719       1 trace.go:116] Trace[652237337]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:09.681137632 +0000 UTC m=+3721.997781322) (total time: 582.491059ms):
+Trace[652237337]: [582.323235ms] [582.280812ms] About to write a response
+I0424 14:16:11.095856       1 trace.go:116] Trace[713937037]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 14:16:10.292994776 +0000 UTC m=+3722.609638479) (total time: 802.794627ms):
+Trace[713937037]: [802.752949ms] [801.988679ms] Transaction committed
+I0424 14:16:11.096101       1 trace.go:116] Trace[423713922]: "Update" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:10.292633521 +0000 UTC m=+3722.609277204) (total time: 803.412595ms):
+Trace[423713922]: [803.314953ms] [803.022462ms] Object stored in database
+I0424 14:16:13.106588       1 trace.go:116] Trace[1409636992]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:12.33232009 +0000 UTC m=+3724.648963809) (total time: 774.170101ms):
+Trace[1409636992]: [773.756204ms] [773.695264ms] About to write a response
+I0424 14:16:15.908288       1 trace.go:116] Trace[1175621154]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:15.148693434 +0000 UTC m=+3727.465337130) (total time: 759.54177ms):
+Trace[1175621154]: [759.483524ms] [759.438323ms] About to write a response
+I0424 14:16:19.221972       1 trace.go:116] Trace[281297740]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 14:16:18.472153805 +0000 UTC m=+3730.788797498) (total time: 749.770799ms):
+Trace[281297740]: [749.734482ms] [744.913429ms] Transaction committed
+I0424 14:16:19.224684       1 trace.go:116] Trace[71044017]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:16:18.625634264 +0000 UTC m=+3730.942277964) (total time: 598.99891ms):
+Trace[71044017]: [598.959292ms] [598.142051ms] Transaction committed
+I0424 14:16:19.224836       1 trace.go:116] Trace[88444576]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker2,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.4 (started: 2020-04-24 14:16:18.625472999 +0000 UTC m=+3730.942116661) (total time: 599.323361ms):
+Trace[88444576]: [599.244916ms] [599.127767ms] Object stored in database
+I0424 14:16:21.305959       1 trace.go:116] Trace[1197596811]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:20.172972987 +0000 UTC m=+3732.489616660) (total time: 1.132952834s):
+Trace[1197596811]: [1.132905785s] [1.132868735s] About to write a response
+I0424 14:16:37.674944       1 trace.go:116] Trace[416099793]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:36.896086345 +0000 UTC m=+3749.212730061) (total time: 778.787609ms):
+Trace[416099793]: [778.702062ms] [778.648918ms] About to write a response
+I0424 14:16:37.675212       1 trace.go:116] Trace[649195488]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:16:37.013198344 +0000 UTC m=+3749.329842064) (total time: 661.97064ms):
+Trace[649195488]: [661.915213ms] [661.851213ms] About to write a response
+I0424 14:16:48.486677       1 trace.go:116] Trace[970128674]: "Get" url:/apis/crd.projectcalico.org/v1/clusterinformations/default,user-agent:Go-http-client/2.0,client:192.168.219.68 (started: 2020-04-24 14:16:47.807792299 +0000 UTC m=+3760.124436004) (total time: 678.762884ms):
+Trace[970128674]: [677.883078ms] [677.80109ms] About to write a response
+I0424 14:16:48.505956       1 trace.go:116] Trace[595057749]: "List etcd3" key:/jobs,resourceVersion:,limit:500,continue: (started: 2020-04-24 14:16:47.893097843 +0000 UTC m=+3760.209741583) (total time: 612.537071ms):
+Trace[595057749]: [612.537071ms] [612.537071ms] END
+I0424 14:16:48.510459       1 trace.go:116] Trace[1563696106]: "List" url:/apis/batch/v1/jobs,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:cronjob-controller,client:192.168.32.2 (started: 2020-04-24 14:16:47.893021005 +0000 UTC m=+3760.209664727) (total time: 617.156108ms):
+Trace[1563696106]: [612.993728ms] [612.932287ms] Listing from storage done
+I0424 14:17:13.965698       1 trace.go:116] Trace[171664390]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:17:13.444241861 +0000 UTC m=+3785.760885521) (total time: 521.361847ms):
+Trace[171664390]: [521.298725ms] [521.273553ms] About to write a response
+I0424 14:17:15.708678       1 trace.go:116] Trace[174617590]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:17:15.067901449 +0000 UTC m=+3787.384545165) (total time: 640.684572ms):
+Trace[174617590]: [640.552879ms] [640.490326ms] About to write a response
+I0424 14:18:23.101741       1 trace.go:116] Trace[1305477287]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:18:22.566552206 +0000 UTC m=+3854.883224590) (total time: 535.1073ms):
+Trace[1305477287]: [535.031121ms] [534.991117ms] About to write a response
+I0424 14:18:48.543020       1 trace.go:116] Trace[2030788964]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:18:46.578157386 +0000 UTC m=+3878.894801098) (total time: 1.964805896s):
+Trace[2030788964]: [1.964726782s] [1.964682934s] About to write a response
+I0424 14:18:48.547253       1 trace.go:116] Trace[916268011]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:18:47.238337088 +0000 UTC m=+3879.554980762) (total time: 1.308859251s):
+Trace[916268011]: [1.308703967s] [1.308670726s] About to write a response
+I0424 14:18:48.556479       1 trace.go:116] Trace[756559271]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:18:47.86249435 +0000 UTC m=+3880.179138237) (total time: 693.938323ms):
+Trace[756559271]: [693.885433ms] [692.695471ms] Transaction committed
+I0424 14:18:48.556642       1 trace.go:116] Trace[1737841517]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 14:18:47.861914143 +0000 UTC m=+3880.178557831) (total time: 694.699718ms):
+Trace[1737841517]: [694.601034ms] [694.364371ms] Object stored in database
+I0424 14:18:52.309957       1 trace.go:116] Trace[151005780]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:18:50.151801984 +0000 UTC m=+3882.468445749) (total time: 2.158124615s):
+Trace[151005780]: [2.158057336s] [2.157299377s] Transaction committed
+I0424 14:18:52.310102       1 trace.go:116] Trace[1901228597]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/worker1,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.3 (started: 2020-04-24 14:18:50.151620483 +0000 UTC m=+3882.468264172) (total time: 2.158456689s):
+Trace[1901228597]: [2.158361844s] [2.158232898s] Object stored in database
+I0424 14:18:52.314107       1 trace.go:116] Trace[487869735]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:18:50.568847737 +0000 UTC m=+3882.885491496) (total time: 1.745208894s):
+Trace[487869735]: [1.74514524s] [1.745073928s] About to write a response
+I0424 14:18:52.314112       1 trace.go:116] Trace[1878063302]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:18:51.040032009 +0000 UTC m=+3883.356675721) (total time: 1.274036729s):
+Trace[1878063302]: [1.273985329s] [1.273932707s] About to write a response
+I0424 14:22:41.995002       1 controller.go:606] quota admission added evaluator for: serviceaccounts
+I0424 14:22:42.304805       1 controller.go:606] quota admission added evaluator for: roles.rbac.authorization.k8s.io
+I0424 14:22:42.372338       1 controller.go:606] quota admission added evaluator for: rolebindings.rbac.authorization.k8s.io
+I0424 14:22:42.436763       1 controller.go:606] quota admission added evaluator for: deployments.apps
+I0424 14:22:42.443153       1 controller.go:606] quota admission added evaluator for: replicasets.apps
+I0424 14:34:50.654262       1 trace.go:116] Trace[790849272]: "Get" url:/api/v1/namespaces/default,user-agent:kube-apiserver/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:::1 (started: 2020-04-24 14:34:48.426566905 +0000 UTC m=+4840.743210625) (total time: 2.227641369s):
+Trace[790849272]: [2.227573873s] [2.227549917s] About to write a response
+I0424 14:34:50.660945       1 trace.go:116] Trace[2016977656]: "GuaranteedUpdate etcd3" type:*coordination.Lease (started: 2020-04-24 14:34:49.913198935 +0000 UTC m=+4842.229842610) (total time: 747.717003ms):
+Trace[2016977656]: [747.681002ms] [746.956107ms] Transaction committed
+I0424 14:34:50.661068       1 trace.go:116] Trace[910355675]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/master,user-agent:kubelet/v1.18.2 (linux/amd64) kubernetes/52c56ce,client:192.168.32.2 (started: 2020-04-24 14:34:49.91300373 +0000 UTC m=+4842.229647389) (total time: 748.041998ms):
+Trace[910355675]: [747.981333ms] [747.857948ms] Object stored in database
+I0424 14:34:50.662271       1 trace.go:116] Trace[1986501105]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:34:49.856654793 +0000 UTC m=+4842.173298552) (total time: 805.575845ms):
+Trace[1986501105]: [805.523585ms] [805.04937ms] About to write a response
+I0424 14:34:50.663316       1 trace.go:116] Trace[1501870067]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:34:49.491052937 +0000 UTC m=+4841.807696613) (total time: 1.172220743s):
+Trace[1501870067]: [1.172163118s] [1.172126024s] About to write a response
+W0424 14:35:52.978956       1 watcher.go:199] watch chan error: etcdserver: mvcc: required revision has been compacted
+I0424 14:48:57.384421       1 trace.go:116] Trace[990997524]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 14:48:56.858375904 +0000 UTC m=+5689.175019586) (total time: 525.975983ms):
+Trace[990997524]: [525.877803ms] [525.838308ms] About to write a response
+E0424 16:25:09.863185       1 watch.go:251] unable to encode watch object *v1.WatchEvent: http2: stream closed (&streaming.encoder{writer:(*http2.responseWriter)(0xc009c20880), encoder:(*versioning.codec)(0xc010c917c0), buf:(*bytes.Buffer)(0xc011092db0)})
+I0424 17:21:17.844198       1 trace.go:116] Trace[1646927497]: "GuaranteedUpdate etcd3" type:*core.Endpoints (started: 2020-04-24 17:21:17.269270012 +0000 UTC m=+14829.585913858) (total time: 574.87771ms):
+Trace[1646927497]: [574.7797ms] [572.745495ms] Transaction committed
+I0424 17:21:17.851647       1 trace.go:116] Trace[1128997711]: "Update" url:/api/v1/namespaces/kubernetes-dashboard/endpoints/kubernetes-dashboard,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:endpoint-controller,client:192.168.32.2 (started: 2020-04-24 17:21:17.26597388 +0000 UTC m=+14829.582617580) (total time: 585.117018ms):
+Trace[1128997711]: [578.290052ms] [575.088869ms] Object stored in database
+I0424 17:21:17.854885       1 trace.go:116] Trace[19811720]: "GuaranteedUpdate etcd3" type:*apps.ReplicaSet (started: 2020-04-24 17:21:17.252148344 +0000 UTC m=+14829.568792054) (total time: 602.631307ms):
+Trace[19811720]: [600.90423ms] [595.790364ms] Transaction committed
+I0424 17:21:17.855459       1 trace.go:116] Trace[2085338467]: "Update" url:/apis/apps/v1/namespaces/kubernetes-dashboard/replicasets/kubernetes-dashboard-9774cc786/status,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:replicaset-controller,client:192.168.32.2 (started: 2020-04-24 17:21:17.251689186 +0000 UTC m=+14829.568332859) (total time: 603.406547ms):
+Trace[2085338467]: [603.249875ms] [603.099208ms] Object stored in database
+I0424 17:21:17.865746       1 trace.go:116] Trace[2088192839]: "GuaranteedUpdate etcd3" type:*discovery.EndpointSlice (started: 2020-04-24 17:21:17.251834642 +0000 UTC m=+14829.568478355) (total time: 613.857782ms):
+Trace[2088192839]: [613.638612ms] [610.14111ms] Transaction committed
+I0424 17:21:17.865925       1 trace.go:116] Trace[94611645]: "Update" url:/apis/discovery.k8s.io/v1beta1/namespaces/kubernetes-dashboard/endpointslices/kubernetes-dashboard-rglwv,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/system:serviceaccount:kube-system:endpointslice-controller,client:192.168.32.2 (started: 2020-04-24 17:21:17.251637071 +0000 UTC m=+14829.568280746) (total time: 614.255612ms):
+Trace[94611645]: [614.154162ms] [614.019563ms] Object stored in database
+I0424 18:03:34.436365       1 trace.go:116] Trace[651216561]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 18:03:33.868991037 +0000 UTC m=+17366.185634854) (total time: 567.259393ms):
+Trace[651216561]: [567.108329ms] [567.047807ms] About to write a response
+I0424 18:33:40.981063       1 trace.go:116] Trace[534629048]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 18:33:40.033054506 +0000 UTC m=+19172.349698376) (total time: 947.79988ms):
+Trace[534629048]: [947.52854ms] [947.418192ms] About to write a response
+I0424 18:36:46.319791       1 trace.go:116] Trace[1534038089]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler,user-agent:kube-scheduler/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 18:36:45.584857007 +0000 UTC m=+19357.901500653) (total time: 734.832902ms):
+Trace[1534038089]: [734.682806ms] [734.664642ms] About to write a response
+I0424 18:36:46.321655       1 trace.go:116] Trace[851730440]: "Get" url:/api/v1/namespaces/kube-system/endpoints/kube-controller-manager,user-agent:kube-controller-manager/v1.18.2 (linux/amd64) kubernetes/52c56ce/leader-election,client:192.168.32.2 (started: 2020-04-24 18:36:45.774042825 +0000 UTC m=+19358.090686476) (total time: 547.554017ms):
+Trace[851730440]: [547.411263ms] [547.391321ms] About to write a response
+I0424 18:40:41.481801       1 trace.go:116] Trace[1655902241]: "GuaranteedUpdate etcd3" type:*v1.Endpoints (started: 2020-04-24 18:40:40.825113886 +0000 UTC m=+19593.141757598) (total time: 656.585686ms):
+Trace[1655902241]: [656.432144ms] [642.324388ms] Transaction committed
